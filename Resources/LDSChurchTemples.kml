@@ -1,0 +1,4198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+	<name>LDSChurchTemples.kml</name>
+	<Style id="sn_red-circle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-circle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-circle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-circle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_blu-circle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_blu-circle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_blu-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blu-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blu-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_grn-circle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_grn-circle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_grn-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>LDS Temples</name>
+		<visibility>1</visibility>
+		<open>1</open>
+		<LookAt>
+			<longitude>-111.891958</longitude>
+			<latitude>40.770468</latitude>
+			<altitude>0</altitude>
+			<range>7800000</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+		</LookAt>
+		<Placemark>
+			<name>Aba Nigeria Temple</name>
+			<Snippet>121st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/aba/"><img src="http://www.ldschurchtemples.com/aba/images/aba-mormon-temple-thumb.jpg"></a><br>
+<br>
+Okpu-Umuoba Road<br>
+Off Aba-Owerri Road at Union Bank<br>
+Aba, Abia State<br>
+Nigeria<br>
+Phone:&nbsp; (234) 803-903-4804<br>
+<a href="http://www.ldschurchtemples.com/aba/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>7.356719</longitude>
+				<latitude>5.147644</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>7.356719,5.147644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Accra Ghana Temple</name>
+			<Snippet>117th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/accra/"><img src="http://www.ldschurchtemples.com/accra/images/accra-mormon-temple-thumb.jpg"></a><br>
+<br>
+57 Independence Avenue<br>
+North Ridge<br>
+PMB CT 209, Cantonments<br>
+Accra<br>
+Ghana<br>
+Phone:&nbsp; (233) 302-650-113<br>
+<a href="http://www.ldschurchtemples.com/accra/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-0.193706</longitude>
+				<latitude>5.567490</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-0.193706,5.567490,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Adelaide Australia Temple</name>
+			<Snippet>89th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/adelaide/"><img src="http://www.ldschurchtemples.com/adelaide/images/adelaide-mormon-temple-thumb.jpg"></a><br>
+<br>
+53-59 Lower Portrush Road<br>
+Marden, South Australia<br>
+Australia<br>
+Phone:&nbsp; (61) 8-8363-8000<br>
+<a href="http://www.ldschurchtemples.com/adelaide/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>138.635002</longitude>
+				<latitude>-34.892473</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>138.635002,-34.892473,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Albuquerque New Mexico Temple</name>
+			<Snippet>73rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/albuquerque/"><img src="http://www.ldschurchtemples.com/albuquerque/images/albuquerque-mormon-temple-thumb.jpg"></a><br>
+<br>
+10301 San Francisco Drive NE<br>
+Albuquerque, New Mexico<br>
+United States<br>
+Phone:&nbsp; 505-822-5110<br>
+<a href="http://www.ldschurchtemples.com/albuquerque/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-106.525301</longitude>
+				<latitude>35.167684</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-106.525301,35.167684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Anchorage Alaska Temple</name>
+			<Snippet>54th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/anchorage/"><img src="http://www.ldschurchtemples.com/anchorage/images/anchorage-mormon-temple-thumb.jpg"></a><br>
+<br>
+13161 Brayton Drive<br>
+Anchorage, Alaska<br>
+United States<br>
+Phone:&nbsp; 907-348-7890<br>
+<a href="http://www.ldschurchtemples.com/anchorage/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-149.840512</longitude>
+				<latitude>61.101627</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-149.840512,61.101627,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Apia Samoa Temple</name>
+			<Snippet>22nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/apia/"><img src="http://www.ldschurchtemples.com/apia/images/apia-mormon-temple-thumb.jpg"></a><br>
+<br>
+Vaitele Street<br>
+Pesega, Apia<br>
+Samoa<br>
+Phone:&nbsp; (685) 64-230<br>
+<a href="http://www.ldschurchtemples.com/apia/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-171.783034</longitude>
+				<latitude>-13.838064</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-171.783034,-13.838064,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Arequipa Peru Temple</name>
+			<Snippet>Planning and approval phase; final piece of land for temple site acquired</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/arequipa/"><img src="http://www.ldschurchtemples.com/images/mormon-temple-thumb.jpg"></a><br>
+<br>
+Arequipa, Arequipa<br>
+Peru<br>
+]]></description>
+			<LookAt>
+				<longitude>-71.538135</longitude>
+				<latitude>-16.374534</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<coordinates>-71.538135,-16.374534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Asunción Paraguay Temple</name>
+			<Snippet>112th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/asuncion/"><img src="http://www.ldschurchtemples.com/asuncion/images/asuncion-mormon-temple-thumb.jpg"></a><br>
+<br>
+Esquina Brasilia y España<br>
+Asunción<br>
+Paraguay<br>
+Phone:&nbsp; (595) 21-230-035<br>
+<a href="http://www.ldschurchtemples.com/asuncion/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-57.602869</longitude>
+				<latitude>-25.287916</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-57.602869,-25.287916,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Atlanta Georgia Temple</name>
+			<Snippet>21st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/atlanta/"><img src="http://www.ldschurchtemples.com/atlanta/images/atlanta-mormon-temple-thumb.jpg"></a><br>
+<br>
+6450 Barfield Road NE<br>
+Sandy Springs, Georgia<br>
+United States<br>
+Phone:&nbsp; 770-393-3698<br>
+<a href="http://www.ldschurchtemples.com/atlanta/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-84.362394</longitude>
+				<latitude>33.931896</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-84.362394,33.931896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Barranquilla Colombia Temple</name>
+			<Snippet>Planning and approval phase; temple and site designs complete</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/barranquilla/"><img src="http://www.ldschurchtemples.com/images/mormon-temple-thumb.jpg"></a><br>
+<br>
+Puerto Colombia<br>
+Colombia<br>
+]]></description>
+			<LookAt>
+				<longitude>-74.863153</longitude>
+				<latitude>11.016461</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<coordinates>-74.863153,11.016461,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Baton Rouge Louisiana Temple</name>
+			<Snippet>94th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/batonrouge/"><img src="http://www.ldschurchtemples.com/batonrouge/images/baton-rouge-mormon-temple-thumb.jpg"></a><br>
+<br>
+10339 Highland Road<br>
+Baton Rouge, Louisiana<br>
+United States<br>
+Phone:&nbsp; 225-769-1197<br>
+<a href="http://www.ldschurchtemples.com/batonrouge/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-91.108385</longitude>
+				<latitude>30.362664</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-91.108385,30.362664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bern Switzerland Temple</name>
+			<Snippet>9th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/bern/"><img src="http://www.ldschurchtemples.com/bern/images/bern-mormon-temple-thumb.jpg"></a><br>
+<br>
+Tempelstrasse 2<br>
+Zollikofen, Bern<br>
+Switzerland<br>
+Phone:&nbsp; (41) 31-915-5252<br>
+<a href="http://www.ldschurchtemples.com/bern/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>7.458244</longitude>
+				<latitude>47.002192</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>7.458244,47.002192,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Billings Montana Temple</name>
+			<Snippet>66th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/billings/"><img src="http://www.ldschurchtemples.com/billings/images/billings-mormon-temple-thumb.jpg"></a><br>
+<br>
+3100 Rim Point Drive<br>
+Billings, Montana<br>
+United States<br>
+Phone:&nbsp; 406-655-0607<br>
+<a href="http://www.ldschurchtemples.com/billings/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-108.639390</longitude>
+				<latitude>45.800505</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-108.639390,45.800505,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Birmingham Alabama Temple</name>
+			<Snippet>98th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/birmingham/"><img src="http://www.ldschurchtemples.com/birmingham/images/birmingham-mormon-temple-thumb.jpg"></a><br>
+<br>
+1927 Mount Olive Boulevard<br>
+Gardendale, Alabama<br>
+United States<br>
+Phone:&nbsp; 205-631-3444<br /><b>Toll free</b>&nbsp;  866-360-3444<br>
+<a href="http://www.ldschurchtemples.com/birmingham/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-86.821236</longitude>
+				<latitude>33.674623</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-86.821236,33.674623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bismarck North Dakota Temple</name>
+			<Snippet>61st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/bismarck/"><img src="http://www.ldschurchtemples.com/bismarck/images/bismarck-mormon-temple-thumb.jpg"></a><br>
+<br>
+2930 Cody Drive<br>
+Bismarck, North Dakota<br>
+United States<br>
+Phone:&nbsp; 701-258-9590<br>
+<a href="http://www.ldschurchtemples.com/bismarck/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-100.813979</longitude>
+				<latitude>46.838889</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-100.813979,46.838889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bogotá Colombia Temple</name>
+			<Snippet>57th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/bogota/"><img src="http://www.ldschurchtemples.com/bogota/images/bogota-mormon-temple-thumb.jpg"></a><br>
+<br>
+Carrera 46 no. 127–45<br>
+Bogotá, Distrito Capital<br>
+Colombia<br>
+Phone:&nbsp; (57) 1-625-8000<br>
+<a href="http://www.ldschurchtemples.com/bogota/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-74.056247</longitude>
+				<latitude>4.707801</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-74.056247,4.707801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Boise Idaho Temple</name>
+			<Snippet>27th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/boise/"><img src="http://www.ldschurchtemples.com/boise/images/boise-mormon-temple-thumb.jpg"></a><br>
+<br>
+1211 South Cole Road<br>
+Boise, Idaho<br>
+United States<br>
+Phone:&nbsp; 208-322-4422<br>
+<a href="http://www.ldschurchtemples.com/boise/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-116.275034</longitude>
+				<latitude>43.593523</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-116.275034,43.593523,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Boston Massachusetts Temple</name>
+			<Snippet>100th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/boston/"><img src="http://www.ldschurchtemples.com/boston/images/boston-mormon-temple-thumb.jpg"></a><br>
+<br>
+86 Frontage Road<br>
+Belmont, Massachusetts<br>
+United States<br>
+Phone:&nbsp; 617-993-9993<br>
+<a href="http://www.ldschurchtemples.com/boston/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-71.188091</longitude>
+				<latitude>42.412002</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-71.188091,42.412002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bountiful Utah Temple</name>
+			<Snippet>47th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/bountiful/"><img src="http://www.ldschurchtemples.com/bountiful/images/bountiful-mormon-temple-thumb.jpg"></a><br>
+<br>
+640 South Bountiful Boulevard<br>
+Bountiful, Utah<br>
+United States<br>
+Phone:&nbsp; 801-296-2100<br>
+<a href="http://www.ldschurchtemples.com/bountiful/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.846812</longitude>
+				<latitude>40.882853</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.846812,40.882853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Brigham City Utah Temple</name>
+			<Snippet>139th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/brighamcity/"><img src="http://www.ldschurchtemples.com/brighamcity/images/brigham-city-mormon-temple-thumb.jpg"></a><br>
+<br>
+250 South Main Street<br>
+Brigham City, Utah<br>
+United States<br>
+Phone:&nbsp; 435-695-2170<br><b>Proxy Appointments</b>  435-695-2900<br>
+<a href="http://www.ldschurchtemples.com/brighamcity/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-112.016592</longitude>
+				<latitude>41.505376</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-112.016592,41.505376,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Brisbane Australia Temple</name>
+			<Snippet>115th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/brisbane/"><img src="http://www.ldschurchtemples.com/brisbane/images/brisbane-mormon-temple-thumb.jpg"></a><br>
+<br>
+200 River Terrace<br>
+Kangaroo Point, Queensland<br>
+Australia<br>
+Phone:&nbsp; (61) 7-3240-3600<br>
+<a href="http://www.ldschurchtemples.com/brisbane/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>153.033841</longitude>
+				<latitude>-27.480886</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>153.033841,-27.480886,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Buenos Aires Argentina Temple</name>
+			<Snippet>39th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/buenosaires/"><img src="http://www.ldschurchtemples.com/buenosaires/images/buenos-aires-mormon-temple-thumb.jpg"></a><br>
+<br>
+Autopista Richieri y Puente 13<br>
+Ciudad Evita<br>
+Buenos Aires<br>
+Argentina<br>
+Phone:&nbsp; (54) 11-4487-1848<br>
+<a href="http://www.ldschurchtemples.com/buenosaires/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-58.518225</longitude>
+				<latitude>-34.729286</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-58.518225,-34.729286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Calgary Alberta Temple</name>
+			<Snippet>140th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/calgary/"><img src="http://www.ldschurchtemples.com/calgary/images/calgary-mormon-temple-thumb.jpg"></a><br>
+<br>
+9802 Rocky Ridge Road NW<br>
+Calgary, Alberta<br>
+Canada<br>
+Phone:&nbsp; 403-241-4250<br>
+<a href="http://www.ldschurchtemples.com/calgary/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-114.233300</longitude>
+				<latitude>51.140861</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-114.233300,51.140861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Campinas Brazil Temple</name>
+			<Snippet>111th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/campinas/"><img src="http://www.ldschurchtemples.com/campinas/images/campinas-mormon-temple-thumb.jpg"></a><br>
+<br>
+Rua James Esdras Faust, 400<br>
+Notre Dame<br>
+Campinas, São Paulo<br>
+Brazil<br>
+Phone:&nbsp; (55) 19-2102-5800<br>
+<a href="http://www.ldschurchtemples.com/campinas/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-47.001133</longitude>
+				<latitude>-22.896534</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-47.001133,-22.896534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Caracas Venezuela Temple</name>
+			<Snippet>96th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/caracas/"><img src="http://www.ldschurchtemples.com/caracas/images/caracas-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida C con Calle C-1<br>
+Urbanización Caurimare<br>
+Caracas, Distrito Federal<br>
+Venezuela<br>
+Phone:&nbsp; (58) 212-985-9123<br>
+<a href="http://www.ldschurchtemples.com/caracas/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-66.837293</longitude>
+				<latitude>10.470849</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-66.837293,10.470849,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cardston Alberta Temple</name>
+			<Snippet>6th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/cardston/"><img src="http://www.ldschurchtemples.com/cardston/images/cardston-mormon-temple-thumb.jpg"></a><br>
+<br>
+348 3rd Street West<br>
+Cardston, Alberta<br>
+Canada<br>
+Phone:&nbsp; 403-653-3552<br>
+<a href="http://www.ldschurchtemples.com/cardston/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-113.309394</longitude>
+				<latitude>49.19835</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-113.309394,49.19835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cebu City Philippines Temple</name>
+			<Snippet>133rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/cebucity/"><img src="http://www.ldschurchtemples.com/cebucity/images/cebu-city-mormon-temple-thumb.jpg"></a><br>
+<br>
+Gorordo Avenue<br>
+Barangay Lahug<br>
+Cebu City, Cebu<br>
+Philippines<br>
+Phone:&nbsp; (63) 32-230-1207<br>
+<a href="http://www.ldschurchtemples.com/cebucity/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>123.898299</longitude>
+				<latitude>10.327659</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>123.898299,10.327659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cedar City Utah Temple</name>
+			<Snippet>Planning and approval phase; awaiting official site announcement</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/cedarcity/"><img src="http://www.ldschurchtemples.com/images/mormon-temple-thumb.jpg"></a><br>
+<br>
+Cedar City, Utah<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-113.096042</longitude>
+				<latitude>37.673079</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<coordinates>-113.096042,37.673079,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chicago Illinois Temple</name>
+			<Snippet>35th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/chicago/"><img src="http://www.ldschurchtemples.com/chicago/images/chicago-mormon-temple-thumb.jpg"></a><br>
+<br>
+4151 West Lake Avenue<br>
+Glenview, Illinois<br>
+United States<br>
+Phone:&nbsp; 847-299-6500<br>
+<a href="http://www.ldschurchtemples.com/chicago/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-87.859501</longitude>
+				<latitude>42.086829</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-87.859501,42.086829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ciudad Juárez Mexico Temple</name>
+			<Snippet>71st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/ciudadjuarez/"><img src="http://www.ldschurchtemples.com/ciudadjuarez/images/ciudad-juarez-mormon-temple-thumb.jpg"></a><br>
+<br>
+Calle Paraguay no. 2900<br>
+Esquina José Borunda<br>
+Colonia Partido Romero<br>
+Ciudad Juárez, Chihuahua<br>
+Mexico<br>
+Phone:&nbsp; (52) 656-611-5146<br>
+<a href="http://www.ldschurchtemples.com/ciudadjuarez/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-106.463209</longitude>
+				<latitude>31.736269</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-106.463209,31.736269,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cochabamba Bolivia Temple</name>
+			<Snippet>82nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/cochabamba/"><img src="http://www.ldschurchtemples.com/cochabamba/images/cochabamba-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Melchor Urquidi 1500<br>
+Alto Queru Queru<br>
+Cochabamba, Cochabamba<br>
+Bolivia<br>
+Phone:&nbsp; (591) 4-429-3161<br>
+<a href="http://www.ldschurchtemples.com/cochabamba/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-66.147644</longitude>
+				<latitude>-17.363644</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-66.147644,-17.363644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Colonia Juárez Chihuahua Mexico Temple</name>
+			<Snippet>55th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/coloniajuarez/"><img src="http://www.ldschurchtemples.com/coloniajuarez/images/colonia-juarez-mormon-temple-thumb.jpg"></a><br>
+<br>
+Calles Chihuahua y Díaz<br>
+Colonia Juárez, Chihuahua<br>
+Mexico<br>
+Phone:&nbsp; (52) 636-695-0144<br>
+<a href="http://www.ldschurchtemples.com/coloniajuarez/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-108.082038</longitude>
+				<latitude>30.305251</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-108.082038,30.305251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Columbia River Washington Temple</name>
+			<Snippet>107th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/columbiariver/"><img src="http://www.ldschurchtemples.com/columbiariver/images/columbia-river-mormon-temple-thumb.jpg"></a><br>
+<br>
+969 Gage Boulevard<br>
+Richland, Washington<br>
+United States<br>
+Phone:&nbsp; 509-628-0990<br>
+<a href="http://www.ldschurchtemples.com/columbiariver/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-119.274893</longitude>
+				<latitude>46.226733</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-119.274893,46.226733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Columbia South Carolina Temple</name>
+			<Snippet>62nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/columbia/"><img src="http://www.ldschurchtemples.com/columbia/images/columbia-mormon-temple-thumb.jpg"></a><br>
+<br>
+2905 Trotter Road<br>
+Hopkins, South Carolina<br>
+United States<br>
+Phone:&nbsp; 803-647-9472<br>
+<a href="http://www.ldschurchtemples.com/columbia/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-80.893981</longitude>
+				<latitude>33.959638</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-80.893981,33.959638,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Columbus Ohio Temple</name>
+			<Snippet>60th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/columbus/"><img src="http://www.ldschurchtemples.com/columbus/images/columbus-mormon-temple-thumb.jpg"></a><br>
+<br>
+3870 Gateway Boulevard<br>
+Columbus, Ohio<br>
+United States<br>
+Phone:&nbsp; 614-351-5001<br>
+<a href="http://www.ldschurchtemples.com/columbus/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-83.113214</longitude>
+				<latitude>39.994089</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-83.113214,39.994089,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Concepción Chile Temple</name>
+			<Snippet>Planning and approval phase; temple and site designs complete</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/concepcion/"><img src="http://www.ldschurchtemples.com/concepcion/images/concepcion-mormon-temple-thumb.jpg"></a><br>
+<br>
+1525 Pedro de Valdivia<br>
+Concepción, Bío-Bío<br>
+Chile<br>
+]]></description>
+			<LookAt>
+				<longitude>-73.049966</longitude>
+				<latitude>-36.851499</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<coordinates>-73.049966,-36.851499,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Copenhagen Denmark Temple</name>
+			<Snippet>118th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/copenhagen/"><img src="http://www.ldschurchtemples.com/copenhagen/images/copenhagen-mormon-temple-thumb.jpg"></a><br>
+<br>
+Priorvej 12<br>
+Frederiksberg<br>
+Denmark<br>
+Phone:&nbsp; (45) 38-18-1818<br>
+<a href="http://www.ldschurchtemples.com/copenhagen/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>12.53392</longitude>
+				<latitude>55.692677</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>12.53392,55.692677,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Córdoba Argentina Temple</name>
+			<Snippet>Landscaping continues; late stages of interior work underway</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/cordoba/"><img src="http://www.ldschurchtemples.com/cordoba/images/cordoba-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Pedro Simón Laplace<br>
+Villa Belgrano<br>
+Córdoba<br>
+Argentina<br>
+]]></description>
+			<LookAt>
+				<longitude>-64.245809</longitude>
+				<latitude>-31.358873</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-64.245809,-31.358873,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Curitiba Brazil Temple</name>
+			<Snippet>126th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/curitiba/"><img src="http://www.ldschurchtemples.com/curitiba/images/curitiba-mormon-temple-thumb.jpg"></a><br>
+<br>
+Rua Deputado Heitor Alencar Furtado, 3641<br>
+Mossunguê<br>
+Curitiba, Paraná<br>
+Brazil<br>
+Phone:&nbsp; (55) 41-3204-6650<br>
+<a href="http://www.ldschurchtemples.com/curitiba/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-49.342138</longitude>
+				<latitude>-25.441304</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-49.342138,-25.441304,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dallas Texas Temple</name>
+			<Snippet>30th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/dallas/"><img src="http://www.ldschurchtemples.com/dallas/images/dallas-mormon-temple-thumb.jpg"></a><br>
+<br>
+6363 Willow Lane<br>
+Dallas, Texas<br>
+United States<br>
+Phone:&nbsp; 972-991-1273<br>
+<a href="http://www.ldschurchtemples.com/dallas/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-96.796525</longitude>
+				<latitude>32.914288</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-96.796525,32.914288,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Denver Colorado Temple</name>
+			<Snippet>40th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/denver/"><img src="http://www.ldschurchtemples.com/denver/images/denver-mormon-temple-thumb.jpg"></a><br>
+<br>
+2001 East Phillips Circle<br>
+Centennial, Colorado<br>
+United States<br>
+Phone:&nbsp; 303-730-0220<br>
+<a href="http://www.ldschurchtemples.com/denver/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-104.965782</longitude>
+				<latitude>39.568698</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-104.965782,39.568698,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Detroit Michigan Temple</name>
+			<Snippet>63rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/detroit/"><img src="http://www.ldschurchtemples.com/detroit/images/detroit-mormon-temple-thumb.jpg"></a><br>
+<br>
+37425 Woodward Avenue<br>
+Bloomfield Hills, Michigan<br>
+United States<br>
+Phone:&nbsp; 248-593-0690<br>
+<a href="http://www.ldschurchtemples.com/detroit/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-83.229983</longitude>
+				<latitude>42.566266</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-83.229983,42.566266,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Draper Utah Temple</name>
+			<Snippet>129th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/draper/"><img src="http://www.ldschurchtemples.com/draper/images/draper-mormon-temple-thumb.jpg"></a><br>
+<br>
+14065 Canyon Vista Lane<br>
+Draper, Utah<br>
+United States<br>
+Phone:&nbsp; 801-576-4240<br>
+<a href="http://www.ldschurchtemples.com/draper/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.840748</longitude>
+				<latitude>40.495893</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.840748,40.495893,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Edmonton Alberta Temple</name>
+			<Snippet>67th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/edmonton/"><img src="http://www.ldschurchtemples.com/edmonton/images/edmonton-mormon-temple-thumb.jpg"></a><br>
+<br>
+14325 53rd Avenue NW<br>
+Edmonton, Alberta<br>
+Canada<br>
+Phone:&nbsp; 780-434-7436<br>
+<a href="http://www.ldschurchtemples.com/edmonton/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-113.570538</longitude>
+				<latitude>53.489593</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-113.570538,53.489593,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Endowment House Temple</name>
+			<Snippet>Temporary structure used during the construction of the Salt Lake Temple; razed in 1889</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/endowment/"><img src="http://www.ldschurchtemples.com/endowment/images/endowment-mormon-temple-thumb.jpg"></a><br>
+<br>
+Salt Lake City, Utah<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-111.893144</longitude>
+				<latitude>40.771089</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_grn-circle</styleUrl>
+			<Point>
+				<coordinates>-111.893144,40.771089,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fort Collins Colorado Temple</name>
+			<Snippet>Framing interior walls; attaching precast panels to exterior walls</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/fortcollins/"><img src="http://www.ldschurchtemples.com/fortcollins/images/fort-collins-mormon-temple-thumb.jpg"></a><br>
+<br>
+Southeast corner of Trilby Road and Timberline Road<br>
+Fort Collins, Colorado<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-105.038685</longitude>
+				<latitude>40.494269</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-105.038685,40.494269,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fort Lauderdale Florida Temple</name>
+			<Snippet>143rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/fortlauderdale/"><img src="http://www.ldschurchtemples.com/fortlauderdale/images/fort-lauderdale-mormon-temple-thumb.jpg"></a><br>
+<br>
+3901 SW 154th Avenue<br>
+Davie, Florida<br>
+United States<br>
+Phone:&nbsp; 954-382-8390<br>
+<a href="http://www.ldschurchtemples.com/fortlauderdale/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-80.355727</longitude>
+				<latitude>26.070899</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-80.355727,26.070899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fortaleza Brazil Temple</name>
+			<Snippet>Full-scale construction pending</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/fortaleza/"><img src="http://www.ldschurchtemples.com/fortaleza/images/fortaleza-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Santos Dumont esq Rua Mal. Mascarenhas Morais<br>
+Fortaleza, Ceará<br>
+Brazil<br>
+]]></description>
+			<LookAt>
+				<longitude>-38.46101</longitude>
+				<latitude>-3.747847</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-38.46101,-3.747847,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Frankfurt Germany Temple</name>
+			<Snippet>41st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/frankfurt/"><img src="http://www.ldschurchtemples.com/frankfurt/images/frankfurt-mormon-temple-thumb.jpg"></a><br>
+<br>
+Talstrasse 10<br>
+Friedrichsdorf, Hessen<br>
+Germany<br>
+Phone:&nbsp; (49) 6172-59000<br>
+<a href="http://www.ldschurchtemples.com/frankfurt/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>8.641316</longitude>
+				<latitude>50.258246</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>8.641316,50.258246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Freiberg Germany Temple</name>
+			<Snippet>33rd operating temple; scheduled to close for renovation on Monday, February 9, 2015</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/freiberg/"><img src="http://www.ldschurchtemples.com/freiberg/images/freiberg-mormon-temple-thumb.jpg"></a><br>
+<br>
+Hainichener Strasse 64<br>
+Freiberg, Sachsen<br>
+Germany<br>
+Phone:&nbsp; (49) 3731-35960<br>
+<a href="http://www.ldschurchtemples.com/freiberg/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>13.322541</longitude>
+				<latitude>50.922315</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>13.322541,50.922315,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fresno California Temple</name>
+			<Snippet>78th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/fresno/"><img src="http://www.ldschurchtemples.com/fresno/images/fresno-mormon-temple-thumb.jpg"></a><br>
+<br>
+6290 North Valentine Avenue<br>
+Fresno, California<br>
+United States<br>
+Phone:&nbsp; 559-437-9451<br>
+<a href="http://www.ldschurchtemples.com/fresno/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-119.852911</longitude>
+				<latitude>36.828257</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-119.852911,36.828257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fukuoka Japan Temple</name>
+			<Snippet>88th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/fukuoka/"><img src="http://www.ldschurchtemples.com/fukuoka/images/fukuoka-mormon-temple-thumb.jpg"></a><br>
+<br>
+9-15 Hirao Johsui Machi<br>
+Chuo-ku<br>
+Fukuoka-shi, Fukuoka-ken<br>
+Japan<br>
+Phone:&nbsp; (81) 92-525-8255<br>
+<a href="http://www.ldschurchtemples.com/fukuoka/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>130.391704</longitude>
+				<latitude>33.572618</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>130.391704,33.572618,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Gila Valley Arizona Temple</name>
+			<Snippet>132nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/gilavalley/"><img src="http://www.ldschurchtemples.com/gilavalley/images/gila-valley-mormon-temple-thumb.jpg"></a><br>
+<br>
+5291 West Highway 70<br>
+Central, Arizona<br>
+United States<br>
+Phone:&nbsp; 928-428-7243<br>
+<a href="http://www.ldschurchtemples.com/gilavalley/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-109.789974</longitude>
+				<latitude>32.862971</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-109.789974,32.862971,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gilbert Arizona Temple</name>
+			<Snippet>142nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/gilbert/"><img src="http://www.ldschurchtemples.com/gilbert/images/gilbert-mormon-temple-thumb.jpg"></a><br>
+<br>
+3301 S Greenfield Rd<br>
+Gilbert, Arizona<br>
+United States<br>
+Phone:&nbsp; 480-822-5000<br>
+<a href="http://www.ldschurchtemples.com/gilbert/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.737365</longitude>
+				<latitude>33.291378</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.737365,33.291378,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Guadalajara Mexico Temple</name>
+			<Snippet>105th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/guadalajara/"><img src="http://www.ldschurchtemples.com/guadalajara/images/guadalajara-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Patria no. 879<br>
+Fraccionamiento Jardines Tepeyac<br>
+Zapopán, Jalisco<br>
+Mexico<br>
+Phone:&nbsp; (52) 333-125-1283<br>
+<a href="http://www.ldschurchtemples.com/guadalajara/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-103.423070</longitude>
+				<latitude>20.661550</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-103.423070,20.661550,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Guatemala City Guatemala Temple</name>
+			<Snippet>32nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/guatemalacity/"><img src="http://www.ldschurchtemples.com/guatemalacity/images/guatemala-city-mormon-temple-thumb.jpg"></a><br>
+<br>
+24 Avenida 2-20, Zona 15<br>
+Vista Hermosa 1<br>
+Guatemala City, Guatemala<br>
+Guatemala<br>
+Phone:&nbsp; (502) 2329-8300<br>
+<a href="http://www.ldschurchtemples.com/guatemalacity/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-90.485576</longitude>
+				<latitude>14.583303</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-90.485576,14.583303,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Guayaquil Ecuador Temple</name>
+			<Snippet>58th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/guayaquil/"><img src="http://www.ldschurchtemples.com/guayaquil/images/guayaquil-mormon-temple-thumb.jpg"></a><br>
+<br>
+Calle 6ta y Avenida Rodrigo Chávez González<br>
+Principado de las Lomas<br>
+Urdesa Norte, Guayaquil<br>
+Ecuador<br>
+Phone:&nbsp; (593) 4-288-9388<br>
+<a href="http://www.ldschurchtemples.com/guayaquil/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-79.904877</longitude>
+				<latitude>-2.156246</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-79.904877,-2.156246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Halifax Nova Scotia Temple</name>
+			<Snippet>64th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/halifax/"><img src="http://www.ldschurchtemples.com/halifax/images/halifax-mormon-temple-thumb.jpg"></a><br>
+<br>
+44 Cumberland Drive<br>
+Dartmouth, Nova Scotia<br>
+Canada<br>
+Phone:&nbsp; 902-434-6920<br>
+<a href="http://www.ldschurchtemples.com/halifax/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-63.489038</longitude>
+				<latitude>44.669990</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-63.489038,44.669990,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hamilton New Zealand Temple</name>
+			<Snippet>11th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/hamilton/"><img src="http://www.ldschurchtemples.com/hamilton/images/hamilton-mormon-temple-thumb.jpg"></a><br>
+<br>
+509 Tuhikaramea Road<br>
+Temple View<br>
+Hamilton<br>
+New Zealand<br>
+Phone:&nbsp; (64) 7-846-2750<br>
+<a href="http://www.ldschurchtemples.com/hamilton/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>175.224885</longitude>
+				<latitude>-37.826397</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>175.224885,-37.826397,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hartford Connecticut Temple</name>
+			<Snippet>Insulating exterior walls</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/hartford/"><img src="http://www.ldschurchtemples.com/hartford/images/hartford-mormon-temple-thumb.jpg"></a><br>
+<br>
+Corner of Farmington Ave and Melrose Dr<br>
+Farmington, Connecticut<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-72.844666</longitude>
+				<latitude>41.737552</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-72.844666,41.737552,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Helsinki Finland Temple</name>
+			<Snippet>124th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/helsinki/"><img src="http://www.ldschurchtemples.com/helsinki/images/helsinki-mormon-temple-thumb.jpg"></a><br>
+<br>
+Leppäsillantie 3<br>
+Espoo<br>
+Finland<br>
+Phone:&nbsp; (358) 9-8493-710 <br>
+<a href="http://www.ldschurchtemples.com/helsinki/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>24.781785</longitude>
+				<latitude>60.225193</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>24.781785,60.225193,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hermosillo Sonora Mexico Temple</name>
+			<Snippet>72nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/hermosillo/"><img src="http://www.ldschurchtemples.com/hermosillo/images/hermosillo-mormon-temple-thumb.jpg"></a><br>
+<br>
+General Pedro García Conde no. 303<br>
+Esquina Con Juan José Ríos<br>
+Colonia Pitic<br>
+Hermosillo, Sonora<br>
+Mexico<br>
+Phone:&nbsp; (52) 662-210-5660<br>
+<a href="http://www.ldschurchtemples.com/hermosillo/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-110.94687</longitude>
+				<latitude>29.102548</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-110.94687,29.102548,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hong Kong China Temple</name>
+			<Snippet>48th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/hongkong/"><img src="http://www.ldschurchtemples.com/hongkong/images/hong-kong-mormon-temple-thumb.jpg"></a><br>
+<br>
+2 Cornwall Street<br>
+Kowloon Tong<br>
+Kowloon City<br>
+Hong Kong<br>
+Phone:&nbsp; (852) 2339-8100<br>
+<a href="http://www.ldschurchtemples.com/hongkong/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>114.177336</longitude>
+				<latitude>22.34045</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>114.177336,22.34045,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston Texas Temple</name>
+			<Snippet>97th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/houston/"><img src="http://www.ldschurchtemples.com/houston/images/houston-mormon-temple-thumb.jpg"></a><br>
+<br>
+15725 Champion Forest Drive<br>
+Spring, Texas<br>
+United States<br>
+Phone:&nbsp; 281-376-6804<br>
+<a href="http://www.ldschurchtemples.com/houston/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-95.533038</longitude>
+				<latitude>29.999729</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-95.533038,29.999729,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Idaho Falls Idaho Temple</name>
+			<Snippet>8th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/idahofalls/"><img src="http://www.ldschurchtemples.com/idahofalls/images/idaho-falls-mormon-temple-thumb.jpg"></a><br>
+<br>
+1000 Memorial Drive<br>
+Idaho Falls, Idaho<br>
+United States<br>
+Phone:&nbsp; 208-522-7669<br>
+<a href="http://www.ldschurchtemples.com/idahofalls/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-112.041500</longitude>
+				<latitude>43.499819</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-112.041500,43.499819,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Indianapolis Indiana Temple</name>
+			<Snippet>East fountain covered in plastic; interior work progressing</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/indianapolis/"><img src="http://www.ldschurchtemples.com/indianapolis/images/indianapolis-mormon-temple-thumb.jpg"></a><br>
+<br>
+Southwest corner of W 116th Street and Spring Mill Road<br>
+Carmel, Indiana<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-86.165741</longitude>
+				<latitude>39.955588</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-86.165741,39.955588,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Johannesburg South Africa Temple</name>
+			<Snippet>36th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/johannesburg/"><img src="http://www.ldschurchtemples.com/johannesburg/images/johannesburg-mormon-temple-thumb.jpg"></a><br>
+<br>
+7 Jubilee Road<br>
+Parktown<br>
+Johannesburg<br>
+South Africa<br>
+Phone:&nbsp; (27) 11-645-1540<br>
+<a href="http://www.ldschurchtemples.com/johannesburg/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>28.039195</longitude>
+				<latitude>-26.178051</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>28.039195,-26.178051,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jordan River Utah Temple</name>
+			<Snippet>20th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/jordanriver/"><img src="http://www.ldschurchtemples.com/jordanriver/images/jordan-river-mormon-temple-thumb.jpg"></a><br>
+<br>
+10200 South 1300 West<br>
+South Jordan, Utah<br>
+United States<br>
+Phone:&nbsp; 801-254-3003<br>
+<a href="http://www.ldschurchtemples.com/jordanriver/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.931417</longitude>
+				<latitude>40.566354</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.931417,40.566354,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kansas City Missouri Temple</name>
+			<Snippet>137th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/kansascity/"><img src="http://www.ldschurchtemples.com/kansascity/images/kansas-city-mormon-temple-thumb.jpg"></a><br>
+<br>
+7001 Searcy Creek Parkway<br>
+Kansas City, Missouri<br>
+United States<br>
+Phone:&nbsp; 816-413-1430<br>
+<a href="http://www.ldschurchtemples.com/kansascity/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-94.501331</longitude>
+				<latitude>39.220473</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-94.501331,39.220473,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kinshasa Democratic Republic of the Congo Temple</name>
+			<Snippet>Planning and approval phase</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/kinshasa/"><img src="http://www.ldschurchtemples.com/images/mormon-temple-thumb.jpg"></a><br>
+<br>
+Kinshasa<br>
+Democratic Republic of Congo<br>
+]]></description>
+			<LookAt>
+				<longitude>15.273795</longitude>
+				<latitude>-4.327797</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<coordinates>15.273795,-4.327797,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kirtland Temple</name>
+			<Snippet>Owned and operated by the Community of Christ</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/kirtland/"><img src="http://www.ldschurchtemples.com/kirtland/images/kirtland-mormon-temple-thumb.jpg"></a><br>
+<br>
+9020 Chillicothe Road<br>
+Kirtland, Ohio<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-81.362103</longitude>
+				<latitude>41.625324</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_grn-circle</styleUrl>
+			<Point>
+				<coordinates>-81.362103,41.625324,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kona Hawaii Temple</name>
+			<Snippet>70th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/kona/"><img src="http://www.ldschurchtemples.com/kona/images/kona-mormon-temple-thumb.jpg"></a><br>
+<br>
+75-230 Kalani Street<br>
+Kailua Kona, Hawaii<br>
+United States<br>
+Phone:&nbsp; 808-331-8504<br />Toll free:  866-344-0727<br>
+<a href="http://www.ldschurchtemples.com/kona/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-155.985524</longitude>
+				<latitude>19.641614</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-155.985524,19.641614,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kyiv Ukraine Temple</name>
+			<Snippet>134th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/kyiv/"><img src="http://www.ldschurchtemples.com/kyiv/images/kyiv-mormon-temple-thumb.jpg"></a><br>
+<br>
+1 Yabluneva Street<br>
+v. Sofiivs'ka Borshchagivka<br>
+Kyevo-Sviatoshyns'ky Rayon, Kyivs'ka Oblast<br>
+Ukraine<br>
+Phone:&nbsp; (380) 44-371-4088<br>
+<a href="http://www.ldschurchtemples.com/kyiv/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>30.395565</longitude>
+				<latitude>50.404517</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>30.395565,50.404517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Laie Hawaii Temple</name>
+			<Snippet>5th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/laie/"><img src="http://www.ldschurchtemples.com/laie/images/laie-mormon-temple-thumb.jpg"></a><br>
+<br>
+55-600 Naniloa Loop<br>
+Laie, Hawaii<br>
+United States<br>
+Phone:&nbsp; 808-293-2427<br>
+<a href="http://www.ldschurchtemples.com/laie/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-157.930658</longitude>
+				<latitude>21.647207</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-157.930658,21.647207,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Las Vegas Nevada Temple</name>
+			<Snippet>43rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/lasvegas/"><img src="http://www.ldschurchtemples.com/lasvegas/images/las-vegas-mormon-temple-thumb.jpg"></a><br>
+<br>
+827 Temple View Drive<br>
+Las Vegas, Nevada<br>
+United States<br>
+Phone:&nbsp; 702-452-5011<br>
+<a href="http://www.ldschurchtemples.com/lasvegas/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-115.020052</longitude>
+				<latitude>36.174597</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-115.020052,36.174597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lima Peru Temple</name>
+			<Snippet>38th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/lima/"><img src="http://www.ldschurchtemples.com/lima/images/lima-mormon-temple-thumb.jpg"></a><br>
+<br>
+Calle Saint Tropez N° 140<br>
+ Urb. La Riviera de Monterrico<br>
+La Molina<br>
+Lima, Lima<br>
+Peru<br>
+Phone:&nbsp; (51) 1-612-7200<br>
+<a href="http://www.ldschurchtemples.com/lima/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-76.948897</longitude>
+				<latitude>-12.069713</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-76.948897,-12.069713,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lisbon Portugal Temple</name>
+			<Snippet>Planning and approval phase; land purchase finalized</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/lisbon/"><img src="http://www.ldschurchtemples.com/images/mormon-temple-thumb.jpg"></a><br>
+<br>
+Lisbon<br>
+Portugal<br>
+]]></description>
+			<LookAt>
+				<longitude>-9.173993</longitude>
+				<latitude>38.776252</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<coordinates>-9.173993,38.776252,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Logan Utah Temple</name>
+			<Snippet>2nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/logan/"><img src="http://www.ldschurchtemples.com/logan/images/logan-mormon-temple-thumb.jpg"></a><br>
+<br>
+175 North 300 East<br>
+Logan, Utah<br>
+United States<br>
+Phone:&nbsp; 435-752-3611<br>
+<a href="http://www.ldschurchtemples.com/logan/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.827943</longitude>
+				<latitude>41.734161</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.827943,41.734161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>London England Temple</name>
+			<Snippet>12th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/london/"><img src="http://www.ldschurchtemples.com/london/images/london-mormon-temple-thumb.jpg"></a><br>
+<br>
+West Park Road<br>
+Newchapel<br>
+United Kingdom<br>
+Phone:&nbsp; (44) 1342-832759<br>
+<a href="http://www.ldschurchtemples.com/london/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-0.052181</longitude>
+				<latitude>51.162566</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-0.052181,51.162566,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Los Angeles California Temple</name>
+			<Snippet>10th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/losangeles/"><img src="http://www.ldschurchtemples.com/losangeles/images/los-angeles-mormon-temple-thumb.jpg"></a><br>
+<br>
+10777 Santa Monica Boulevard<br>
+Los Angeles, California<br>
+United States<br>
+Phone:&nbsp; 310-474-5569<br>
+<a href="http://www.ldschurchtemples.com/losangeles/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-118.433909</longitude>
+				<latitude>34.052801</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-118.433909,34.052801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Louisville Kentucky Temple</name>
+			<Snippet>76th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/louisville/"><img src="http://www.ldschurchtemples.com/louisville/images/louisville-mormon-temple-thumb.jpg"></a><br>
+<br>
+7116 West Highway 22<br>
+Crestwood, Kentucky<br>
+United States<br>
+Phone:&nbsp; 502-241-4115<br>
+<a href="http://www.ldschurchtemples.com/louisville/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-85.488843</longitude>
+				<latitude>38.321120</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-85.488843,38.321120,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lubbock Texas Temple</name>
+			<Snippet>109th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/lubbock/"><img src="http://www.ldschurchtemples.com/lubbock/images/lubbock-mormon-temple-thumb.jpg"></a><br>
+<br>
+7016 Frankford Avenue<br>
+Lubbock, Texas<br>
+United States<br>
+Phone:&nbsp; 806-794-0774<br>
+<a href="http://www.ldschurchtemples.com/lubbock/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-101.941413</longitude>
+				<latitude>33.528961</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-101.941413,33.528961,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Madrid Spain Temple</name>
+			<Snippet>56th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/madrid/"><img src="http://www.ldschurchtemples.com/madrid/images/madrid-mormon-temple-thumb.jpg"></a><br>
+<br>
+Calle del Templo no. 2<br>
+Madrid<br>
+Spain<br>
+Phone:&nbsp; (34) 91-301-7607<br>
+<a href="http://www.ldschurchtemples.com/madrid/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-3.631580</longitude>
+				<latitude>40.400090</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-3.631580,40.400090,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Manaus Brazil Temple</name>
+			<Snippet>138th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/manaus/"><img src="http://www.ldschurchtemples.com/manaus/images/manaus-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Coronel Texeira, 3162<br>
+Ponta Negra<br>
+Manaus, Amazonas<br>
+Brazil<br>
+Phone:&nbsp; 92-3212-7270<br>
+<a href="http://www.ldschurchtemples.com/manaus/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-60.089331</longitude>
+				<latitude>-3.073907</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-60.089331,-3.073907,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Manhattan New York Temple</name>
+			<Snippet>119th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/manhattan/"><img src="http://www.ldschurchtemples.com/manhattan/images/manhattan-mormon-temple-thumb.jpg"></a><br>
+<br>
+125 Columbus Avenue<br>
+New York, New York<br>
+United States<br>
+Phone:&nbsp; 917-441-8220<br>
+<a href="http://www.ldschurchtemples.com/manhattan/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-73.981622</longitude>
+				<latitude>40.773112</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-73.981622,40.773112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Manila Philippines Temple</name>
+			<Snippet>29th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/manila/"><img src="http://www.ldschurchtemples.com/manila/images/manila-mormon-temple-thumb.jpg"></a><br>
+<br>
+13 Temple Drive<br>
+Greenmeadows Subdivision<br>
+Quezon City, Metro Manila<br>
+Philippines<br>
+Phone:&nbsp; (63) 2-635-0954<br>
+<a href="http://www.ldschurchtemples.com/manila/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>121.069818</longitude>
+				<latitude>14.601356</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>121.069818,14.601356,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Manti Utah Temple</name>
+			<Snippet>3rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/manti/"><img src="http://www.ldschurchtemples.com/manti/images/manti-mormon-temple-thumb.jpg"></a><br>
+<br>
+Temple Hill<br>
+Manti, Utah<br>
+United States<br>
+Phone:&nbsp; 435-835-2291<br>
+<a href="http://www.ldschurchtemples.com/manti/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.633760</longitude>
+				<latitude>39.272906</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.633760,39.272906,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Medford Oregon Temple</name>
+			<Snippet>79th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/medford/"><img src="http://www.ldschurchtemples.com/medford/images/medford-mormon-temple-thumb.jpg"></a><br>
+<br>
+3900 Grant Road<br>
+Central Point, Oregon<br>
+United States<br>
+Phone:&nbsp; 541-664-2050<br>
+<a href="http://www.ldschurchtemples.com/medford/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-122.932746</longitude>
+				<latitude>42.373324</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-122.932746,42.373324,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Melbourne Australia Temple</name>
+			<Snippet>90th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/melbourne/"><img src="http://www.ldschurchtemples.com/melbourne/images/melbourne-mormon-temple-thumb.jpg"></a><br>
+<br>
+76 Cathies Lane<br>
+Wantirna South, Victoria<br>
+Australia<br>
+Phone:&nbsp; (61) 03-9881-9700<br>
+<a href="http://www.ldschurchtemples.com/melbourne/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>145.212622</longitude>
+				<latitude>-37.868774</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>145.212622,-37.868774,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Memphis Tennessee Temple</name>
+			<Snippet>80th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/memphis/"><img src="http://www.ldschurchtemples.com/memphis/images/memphis-mormon-temple-thumb.jpg"></a><br>
+<br>
+4199 Kirby-Whitten Parkway<br>
+Bartlett, Tennessee<br>
+United States<br>
+Phone:&nbsp; 901-379-0202<br>
+<a href="http://www.ldschurchtemples.com/memphis/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-89.839334</longitude>
+				<latitude>35.240752</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-89.839334,35.240752,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mérida Mexico Temple</name>
+			<Snippet>92nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/merida/"><img src="http://www.ldschurchtemples.com/merida/images/merida-mormon-temple-thumb.jpg"></a><br>
+<br>
+Calle 70 no. 527 Esquina 65 y 67<br>
+Colonia Centro<br>
+Mérida, Yucatán<br>
+Mexico<br>
+Phone:&nbsp; (52) 999-928-1643<br>
+<a href="http://www.ldschurchtemples.com/merida/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-89.631061</longitude>
+				<latitude>20.965784</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-89.631061,20.965784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Meridian Idaho Temple</name>
+			<Snippet>Pouring foundation; laying conduits; visitors' trailer open</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/meridian/"><img src="http://www.ldschurchtemples.com/meridian/images/meridian-mormon-temple-thumb.jpg"></a><br>
+<br>
+7345 North Linder Road<br>
+Meridian, Idaho<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-116.415115</longitude>
+				<latitude>43.671022</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-116.415115,43.671022,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mesa Arizona Temple</name>
+			<Snippet>7th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/mesa/"><img src="http://www.ldschurchtemples.com/mesa/images/mesa-mormon-temple-thumb.jpg"></a><br>
+<br>
+101 South LeSueur<br>
+Mesa, Arizona<br>
+United States<br>
+Phone:&nbsp; 480-833-1211<br>
+<a href="http://www.ldschurchtemples.com/mesa/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.819571</longitude>
+				<latitude>33.412876</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.819571,33.412876,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mexico City Mexico Temple</name>
+			<Snippet>26th operating temple; closed for renovation</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/mexicocity/"><img src="http://www.ldschurchtemples.com/mexicocity/images/mexico-city-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida 510 no. 90<br>
+Colonia San Juan de Aragón<br>
+México City, Distrito Federal<br>
+Mexico<br>
+Phone:&nbsp; (52) 55-5003-3734<br>
+<a href="http://www.ldschurchtemples.com/mexicocity/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-99.086754</longitude>
+				<latitude>19.465905</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-99.086754,19.465905,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Monterrey Mexico Temple</name>
+			<Snippet>110th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/monterrey/"><img src="http://www.ldschurchtemples.com/monterrey/images/monterrey-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Eugenio Garza Sada<br>
+Esquina Privada Valle de la Estanzuela<br>
+Colonia Valle Alto<br>
+Monterrey, Nuevo León<br>
+Mexico<br>
+Phone:&nbsp; (52) 818-104-0635<br>
+<a href="http://www.ldschurchtemples.com/monterrey/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-100.259975</longitude>
+				<latitude>25.589364</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-100.259975,25.589364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Montevideo Uruguay Temple</name>
+			<Snippet>103rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/montevideo/"><img src="http://www.ldschurchtemples.com/montevideo/images/montevideo-mormon-temple-thumb.jpg"></a><br>
+<br>
+Bolonia 1722<br>
+Carrasco<br>
+Montevideo<br>
+Uruguay<br>
+Phone:&nbsp; (598) 2-604-2212<br>
+<a href="http://www.ldschurchtemples.com/montevideo/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-56.074088</longitude>
+				<latitude>-34.888444</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-56.074088,-34.888444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Monticello Utah Temple</name>
+			<Snippet>53rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/monticello/"><img src="http://www.ldschurchtemples.com/monticello/images/monticello-mormon-temple-thumb.jpg"></a><br>
+<br>
+365 North 200 West<br>
+Monticello, Utah<br>
+United States<br>
+Phone:&nbsp; 435-587-3500<br>
+<a href="http://www.ldschurchtemples.com/monticello/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-109.347066</longitude>
+				<latitude>37.877917</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-109.347066,37.877917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Montreal Quebec Temple</name>
+			<Snippet>86th operating temple; closed for renovation; exterior stone removed; building enclosed entrance</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/montreal/"><img src="http://www.ldschurchtemples.com/montreal/images/montreal-mormon-temple-thumb.jpg"></a><br>
+<br>
+1450 Boulevard Marie-Victorin<br>
+Longueuil, Quebec<br>
+Canada<br>
+Phone:&nbsp; 450-646-5775<br>
+<a href="http://www.ldschurchtemples.com/montreal/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-73.490616</longitude>
+				<latitude>45.563335</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-73.490616,45.563335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mount Timpanogos Utah Temple</name>
+			<Snippet>49th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/mounttimpanogos/"><img src="http://www.ldschurchtemples.com/mounttimpanogos/images/mount-timpanogos-mormon-temple-thumb.jpg"></a><br>
+<br>
+742 North 900 East<br>
+American Fork, Utah<br>
+United States<br>
+Phone:&nbsp; 801-763-4540<br>
+<a href="http://www.ldschurchtemples.com/mounttimpanogos/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.770509</longitude>
+				<latitude>40.393166</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.770509,40.393166,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nashville Tennessee Temple</name>
+			<Snippet>84th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/nashville/"><img src="http://www.ldschurchtemples.com/nashville/images/nashville-mormon-temple-thumb.jpg"></a><br>
+<br>
+1100 Gray Fox Lane<br>
+Franklin, Tennessee<br>
+United States<br>
+Phone:&nbsp; 615-791-8668<br>
+<a href="http://www.ldschurchtemples.com/nashville/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-86.860329</longitude>
+				<latitude>35.948839</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-86.860329,35.948839,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nauvoo Temple</name>
+			<Snippet>Destroyed by arson fire in 1848; rebuilt in 2002</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/originalnauvoo/"><img src="http://www.ldschurchtemples.com/originalnauvoo/images/original-nauvoo-mormon-temple-thumb.jpg"></a><br>
+<br>
+Nauvoo, Illinois<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-91.384378</longitude>
+				<latitude>40.550480</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_grn-circle</styleUrl>
+			<Point>
+				<coordinates>-91.384378,40.550480,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nauvoo Illinois Temple</name>
+			<Snippet>113th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/nauvoo/"><img src="http://www.ldschurchtemples.com/nauvoo/images/nauvoo-mormon-temple-thumb.jpg"></a><br>
+<br>
+50 North Wells Street<br>
+Nauvoo, Illinois<br>
+United States<br>
+Phone:&nbsp; 217-453-6252<br>
+<a href="http://www.ldschurchtemples.com/nauvoo/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-91.384378</longitude>
+				<latitude>40.550480</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-91.384378,40.550480,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Newport Beach California Temple</name>
+			<Snippet>122nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/newportbeach/"><img src="http://www.ldschurchtemples.com/newportbeach/images/newport-beach-mormon-temple-thumb.jpg"></a><br>
+<br>
+2300 Bonita Canyon Drive<br>
+Newport Beach, California<br>
+United States<br>
+Phone:&nbsp; 949-644-1820<br>
+<a href="http://www.ldschurchtemples.com/newportbeach/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-117.848766</longitude>
+				<latitude>33.629627</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-117.848766,33.629627,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nuku'alofa Tonga Temple</name>
+			<Snippet>23rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/nukualofa/"><img src="http://www.ldschurchtemples.com/nukualofa/images/nukualofa-mormon-temple-thumb.jpg"></a><br>
+<br>
+Loto Road, Liahona<br>
+Nuku'alofa, Tongatapu<br>
+Tonga<br>
+Phone:&nbsp; (676) 20-300<br>
+<a href="http://www.ldschurchtemples.com/nukualofa/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-175.272320</longitude>
+				<latitude>-21.162561</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-175.272320,-21.162561,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oakland California Temple</name>
+			<Snippet>13th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/oakland/"><img src="http://www.ldschurchtemples.com/oakland/images/oakland-mormon-temple-thumb.jpg"></a><br>
+<br>
+4770 Lincoln Avenue<br>
+Oakland, California<br>
+United States<br>
+Phone:&nbsp; 510-531-3200<br>
+<a href="http://www.ldschurchtemples.com/oakland/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-122.19912</longitude>
+				<latitude>37.808027</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-122.19912,37.808027,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oaxaca Mexico Temple</name>
+			<Snippet>74th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/oaxaca/"><img src="http://www.ldschurchtemples.com/oaxaca/images/oaxaca-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Universidad no. 139<br>
+Fraccionamiento Real de Candiani<br>
+Oaxaca, Oaxaca<br>
+Mexico<br>
+Phone:&nbsp; (52) 951-516-9588<br>
+<a href="http://www.ldschurchtemples.com/oaxaca/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-96.713503</longitude>
+				<latitude>17.041554</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-96.713503,17.041554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ogden Utah Temple</name>
+			<Snippet>14th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/ogden/"><img src="http://www.ldschurchtemples.com/ogden/images/ogden-mormon-temple-thumb.jpg"></a><br>
+<br>
+350 22nd Street<br>
+Ogden, Utah<br>
+United States<br>
+Phone:&nbsp; 801-621-6880<br>
+<a href="http://www.ldschurchtemples.com/ogden/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.971506</longitude>
+				<latitude>41.227786</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.971506,41.227786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oklahoma City Oklahoma Temple</name>
+			<Snippet>95th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/oklahomacity/"><img src="http://www.ldschurchtemples.com/oklahomacity/images/oklahoma-city-mormon-temple-thumb.jpg"></a><br>
+<br>
+12030 North Mustang Road<br>
+Yukon, Oklahoma<br>
+United States<br>
+Phone:&nbsp; 405-373-2309<br />Toll free:   800-481-3284<br>
+<a href="http://www.ldschurchtemples.com/oklahomacity/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-97.726700</longitude>
+				<latitude>35.591846</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-97.726700,35.591846,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oquirrh Mountain Utah Temple</name>
+			<Snippet>130th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/oquirrhmountain/"><img src="http://www.ldschurchtemples.com/oquirrhmountain/images/oquirrh-mountain-mormon-temple-thumb.jpg"></a><br>
+<br>
+11022 South 4000 West<br>
+South Jordan, Utah<br>
+United States<br>
+Phone:&nbsp; 801-878-3800<br>
+<a href="http://www.ldschurchtemples.com/oquirrhmountain/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.987510</longitude>
+				<latitude>40.551145</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.987510,40.551145,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Orlando Florida Temple</name>
+			<Snippet>46th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/orlando/"><img src="http://www.ldschurchtemples.com/orlando/images/orlando-mormon-temple-thumb.jpg"></a><br>
+<br>
+9000 Windy Ridge Road<br>
+Windermere, Florida<br>
+United States<br>
+Phone:&nbsp; 407-876-0022<br>
+<a href="http://www.ldschurchtemples.com/orlando/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-81.509578</longitude>
+				<latitude>28.507348</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-81.509578,28.507348,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Palmyra New York Temple</name>
+			<Snippet>77th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/palmyra/"><img src="http://www.ldschurchtemples.com/palmyra/images/palmyra-mormon-temple-thumb.jpg"></a><br>
+<br>
+2720 Temple Road<br>
+Palmyra, New York<br>
+United States<br>
+Phone:&nbsp; 315-597-6001<br>
+<a href="http://www.ldschurchtemples.com/palmyra/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-77.237063</longitude>
+				<latitude>43.039148</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-77.237063,43.039148,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Panama City Panama Temple</name>
+			<Snippet>127th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/panamacity/"><img src="http://www.ldschurchtemples.com/panamacity/images/panama-city-mormon-temple-thumb.jpg"></a><br>
+<br>
+Calle Rufina 3172<br>
+Ancón, Cárdenas<br>
+Panama<br>
+Phone:&nbsp; (507) 317-6900<br>
+<a href="http://www.ldschurchtemples.com/panamacity/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-79.57048</longitude>
+				<latitude>8.99146</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-79.57048,8.99146,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Papeete Tahiti Temple</name>
+			<Snippet>25th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/papeete/"><img src="http://www.ldschurchtemples.com/papeete/images/papeete-mormon-temple-thumb.jpg"></a><br>
+<br>
+Route de Fautaua—Titioro<br>
+Papeete, Tahiti<br>
+French Polynesia<br>
+Phone:&nbsp; (689) 503-939<br>
+<a href="http://www.ldschurchtemples.com/papeete/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-149.556019</longitude>
+				<latitude>-17.536618</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-149.556019,-17.536618,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Paris France Temple</name>
+			<Snippet>Main floor exterior walls rising</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/paris/"><img src="http://www.ldschurchtemples.com/paris/images/paris-mormon-temple-thumb.jpg"></a><br>
+<br>
+46 Boulevard Saint-Antoine<br>
+Le Chesnay<br>
+France<br>
+]]></description>
+			<LookAt>
+				<longitude>2.123171</longitude>
+				<latitude>48.817892</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>2.123171,48.817892,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Payson Utah Temple</name>
+			<Snippet>Landscaping and interior work continues; exterior lighting installed</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/payson/"><img src="http://www.ldschurchtemples.com/payson/images/payson-mormon-temple-thumb.jpg"></a><br>
+<br>
+Corner of 930 West and 1550 South<br>
+Payson, Utah<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-111.749175</longitude>
+				<latitude>40.019258</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-111.749175,40.019258,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Perth Australia Temple</name>
+			<Snippet>106th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/perth/"><img src="http://www.ldschurchtemples.com/perth/images/perth-mormon-temple-thumb.jpg"></a><br>
+<br>
+163-173 Wordsworth Avenue<br>
+Yokine, Western Australia<br>
+Australia<br>
+Phone:&nbsp; (61) 08-9276-0000<br>
+<a href="http://www.ldschurchtemples.com/perth/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>115.869834</longitude>
+				<latitude>-31.906905</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>115.869834,-31.906905,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Philadelphia Pennsylvania Temple</name>
+			<Snippet>Granite cladding being attached; installing art glass windows</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/philadelphia/"><img src="http://www.ldschurchtemples.com/philadelphia/images/philadelphia-mormon-temple-thumb.jpg"></a><br>
+<br>
+1739 Vine Street<br>
+Philadelphia, Pennsylvania<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-75.168072</longitude>
+				<latitude>39.959174</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-75.168072,39.959174,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Phoenix Arizona Temple</name>
+			<Snippet>144th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/phoenix/"><img src="http://www.ldschurchtemples.com/phoenix/images/phoenix-mormon-temple-thumb.jpg"></a><br>
+<br>
+5220 West Pinnacle Peak Road<br>
+Phoenix, Arizona<br>
+United States<br>
+Phone:&nbsp; 623-474-9500<br>
+<a href="http://www.ldschurchtemples.com/phoenix/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-112.172329</longitude>
+				<latitude>33.698555</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-112.172329,33.698555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Portland Oregon Temple</name>
+			<Snippet>42nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/portland/"><img src="http://www.ldschurchtemples.com/portland/images/portland-mormon-temple-thumb.jpg"></a><br>
+<br>
+13600 SW Kruse Oaks Boulevard<br>
+Lake Oswego, Oregon<br>
+United States<br>
+Phone:&nbsp; 503-639-7066<br>
+<a href="http://www.ldschurchtemples.com/portland/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-122.742224</longitude>
+				<latitude>45.425345</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-122.742224,45.425345,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Porto Alegre Brazil Temple</name>
+			<Snippet>102nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/portoalegre/"><img src="http://www.ldschurchtemples.com/portoalegre/images/porto-alegre-mormon-temple-thumb.jpg"></a><br>
+<br>
+Rua General Salvador Pinheiro, 50<br>
+Vila Jardim<br>
+Porto Alegre, Rio Grande do Sul<br>
+Brazil<br>
+Phone:&nbsp; (55) 51-3338-0400<br>
+<a href="http://www.ldschurchtemples.com/portoalegre/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-51.157868</longitude>
+				<latitude>-30.034047</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-51.157868,-30.034047,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Preston England Temple</name>
+			<Snippet>52nd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/preston/"><img src="http://www.ldschurchtemples.com/preston/images/preston-mormon-temple-thumb.jpg"></a><br>
+<br>
+Temple Way, Hartwood Green<br>
+Chorley<br>
+Lancashire<br>
+United Kingdom<br>
+Phone:&nbsp; (44) 1257-226100<br>
+<a href="http://www.ldschurchtemples.com/preston/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-2.631275</longitude>
+				<latitude>53.672476</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-2.631275,53.672476,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Provo City Center Temple</name>
+			<Snippet>Installing stained-glass windows and fence posts; roofing nearing completion</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/provocitycenter/"><img src="http://www.ldschurchtemples.com/provocitycenter/images/provo-city-center-mormon-temple-thumb.jpg"></a><br>
+<br>
+Corner of 100 S and University Ave<br>
+Provo, Utah<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-111.659299</longitude>
+				<latitude>40.232667</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-111.659299,40.232667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Provo Utah Temple</name>
+			<Snippet>15th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/provo/"><img src="http://www.ldschurchtemples.com/provo/images/provo-mormon-temple-thumb.jpg"></a><br>
+<br>
+2200 Temple Hill Drive<br>
+Provo, Utah<br>
+United States<br>
+Phone:&nbsp; 801-375-5775<br>
+<a href="http://www.ldschurchtemples.com/provo/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.639779</longitude>
+				<latitude>40.263666</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.639779,40.263666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Quetzaltenango Guatemala Temple</name>
+			<Snippet>136th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/quetzaltenango/"><img src="http://www.ldschurchtemples.com/quetzaltenango/images/quetzaltenango-mormon-temple-thumb.jpg"></a><br>
+<br>
+9a Calle 4-03, Zona 9<br>
+Frente a Residenciales Los Cerezos 1<br>
+Quetzaltenango<br>
+Guatemala<br>
+Phone:&nbsp; 502-7728-1603 <br>
+<a href="http://www.ldschurchtemples.com/quetzaltenango/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-91.542517</longitude>
+				<latitude>14.846493</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-91.542517,14.846493,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Raleigh North Carolina Temple</name>
+			<Snippet>68th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/raleigh/"><img src="http://www.ldschurchtemples.com/raleigh/images/raleigh-mormon-temple-thumb.jpg"></a><br>
+<br>
+574 Bryan Drive<br>
+Apex, North Carolina<br>
+United States<br>
+Phone:&nbsp; 919-362-4135<br>
+<a href="http://www.ldschurchtemples.com/raleigh/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-78.861542</longitude>
+				<latitude>35.732111</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-78.861542,35.732111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Recife Brazil Temple</name>
+			<Snippet>101st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/recife/"><img src="http://www.ldschurchtemples.com/recife/images/recife-mormon-temple-thumb.jpg"></a><br>
+<br>
+Rua Dr. José de Góes, 284<br>
+Parnamirim<br>
+Recife, Pernambuco<br>
+Brazil<br>
+Phone:&nbsp; (55) 81-2129-4300<br>
+<a href="http://www.ldschurchtemples.com/recife/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-34.911123</longitude>
+				<latitude>-8.036390</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-34.911123,-8.036390,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Redlands California Temple</name>
+			<Snippet>116th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/redlands/"><img src="http://www.ldschurchtemples.com/redlands/images/redlands-mormon-temple-thumb.jpg"></a><br>
+<br>
+1761 5th Avenue<br>
+Redlands, California<br>
+United States<br>
+Phone:&nbsp; 909-389-7369<br>
+<a href="http://www.ldschurchtemples.com/redlands/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-117.140579</longitude>
+				<latitude>34.049037</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-117.140579,34.049037,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Regina Saskatchewan Temple</name>
+			<Snippet>65th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/regina/"><img src="http://www.ldschurchtemples.com/regina/images/regina-mormon-temple-thumb.jpg"></a><br>
+<br>
+111 Wascana Gate North<br>
+Regina, Saskatchewan<br>
+Canada<br>
+Phone:&nbsp; 306-545-8194<br>
+<a href="http://www.ldschurchtemples.com/regina/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-104.541680</longitude>
+				<latitude>50.420981</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-104.541680,50.420981,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Reno Nevada Temple</name>
+			<Snippet>81st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/reno/"><img src="http://www.ldschurchtemples.com/reno/images/reno-mormon-temple-thumb.jpg"></a><br>
+<br>
+2000 Beaumont Parkway<br>
+Reno, Nevada<br>
+United States<br>
+Phone:&nbsp; 775-747-6688<br>
+<a href="http://www.ldschurchtemples.com/reno/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-119.898913</longitude>
+				<latitude>39.534611</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-119.898913,39.534611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rexburg Idaho Temple</name>
+			<Snippet>125th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/rexburg/"><img src="http://www.ldschurchtemples.com/rexburg/images/rexburg-mormon-temple-thumb.jpg"></a><br>
+<br>
+750 South 2nd East<br>
+Rexburg, Idaho<br>
+United States<br>
+Phone:&nbsp; 208-656-0880<br>
+<a href="http://www.ldschurchtemples.com/rexburg/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.778979</longitude>
+				<latitude>43.810922</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.778979,43.810922,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rio de Janeiro Brazil Temple</name>
+			<Snippet>Planning and approval phase</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/riodejaneiro/"><img src="http://www.ldschurchtemples.com/images/mormon-temple-thumb.jpg"></a><br>
+<br>
+Rio de Janeiro, Rio de Janeiro<br>
+Brazil<br>
+]]></description>
+			<LookAt>
+				<longitude>-43.399918</longitude>
+				<latitude>-23.000894</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<coordinates>-43.399918,-23.000894,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rome Italy Temple</name>
+			<Snippet>Deputy Mayor of Rome visits construction site on September 18</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/rome/"><img src="http://www.ldschurchtemples.com/rome/images/rome-mormon-temple-thumb.jpg"></a><br>
+<br>
+Via di Settebagni, 376<br>
+Rome<br>
+Italy<br>
+]]></description>
+			<LookAt>
+				<longitude>12.544764</longitude>
+				<latitude>41.970437</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>12.544764,41.970437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sacramento California Temple</name>
+			<Snippet>123rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/sacramento/"><img src="http://www.ldschurchtemples.com/sacramento/images/sacramento-mormon-temple-thumb.jpg"></a><br>
+<br>
+2110 California Circle<br>
+Rancho Cordova, California<br>
+United States<br>
+Phone:&nbsp; 916-357-5870<br>
+<a href="http://www.ldschurchtemples.com/sacramento/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-121.193925</longitude>
+				<latitude>38.635116</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-121.193925,38.635116,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St. George Utah Temple</name>
+			<Snippet>1st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/stgeorge/"><img src="http://www.ldschurchtemples.com/stgeorge/images/saint-george-mormon-temple-thumb.jpg"></a><br>
+<br>
+250 East 400 South<br>
+St. George, Utah<br>
+United States<br>
+Phone:&nbsp; 435-673-3533<br>
+<a href="http://www.ldschurchtemples.com/stgeorge/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-113.578041</longitude>
+				<latitude>37.100535</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-113.578041,37.100535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St. Louis Missouri Temple</name>
+			<Snippet>50th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/stlouis/"><img src="http://www.ldschurchtemples.com/stlouis/images/saint-louis-mormon-temple-thumb.jpg"></a><br>
+<br>
+12555 North Outer Forty Drive<br>
+St. Louis, Missouri<br>
+United States<br>
+Phone:&nbsp; 314-514-1122<br>
+<a href="http://www.ldschurchtemples.com/stlouis/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-90.464685</longitude>
+				<latitude>38.639651</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-90.464685,38.639651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St. Paul Minnesota Temple</name>
+			<Snippet>69th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/stpaul/"><img src="http://www.ldschurchtemples.com/stpaul/images/saint-paul-mormon-temple-thumb.jpg"></a><br>
+<br>
+2150 Hadley Avenue North<br>
+Oakdale, Minnesota<br>
+United States<br>
+Phone:&nbsp; 651-748-5910<br>
+<a href="http://www.ldschurchtemples.com/stpaul/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-92.965199</longitude>
+				<latitude>44.980261</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-92.965199,44.980261,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Salt Lake Temple</name>
+			<Snippet>4th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/saltlake/"><img src="http://www.ldschurchtemples.com/saltlake/images/salt-lake-mormon-temple-thumb.jpg"></a><br>
+<br>
+50 West North Temple Street<br>
+Salt Lake City, Utah<br>
+United States<br>
+Phone:&nbsp; 801-240-2640<br>
+<a href="http://www.ldschurchtemples.com/saltlake/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-111.891958</longitude>
+				<latitude>40.770468</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-111.891958,40.770468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>San Antonio Texas Temple</name>
+			<Snippet>120th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/sanantonio/"><img src="http://www.ldschurchtemples.com/sanantonio/images/san-antonio-mormon-temple-thumb.jpg"></a><br>
+<br>
+20080 Stone Oak Parkway<br>
+San Antonio, Texas<br>
+United States<br>
+Phone:&nbsp; 210-538-0034<br>
+<a href="http://www.ldschurchtemples.com/sanantonio/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-98.488789</longitude>
+				<latitude>29.641481</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-98.488789,29.641481,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>San Diego California Temple</name>
+			<Snippet>45th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/sandiego/"><img src="http://www.ldschurchtemples.com/sandiego/images/san-diego-mormon-temple-thumb.jpg"></a><br>
+<br>
+7474 Charmant Drive<br>
+San Diego, California<br>
+United States<br>
+Phone:&nbsp; 858-622-0991<br>
+<a href="http://www.ldschurchtemples.com/sandiego/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-117.228769</longitude>
+				<latitude>32.866389</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-117.228769,32.866389,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>San José Costa Rica Temple</name>
+			<Snippet>87th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/sanjose/"><img src="http://www.ldschurchtemples.com/sanjose/images/san-jose-mormon-temple-thumb.jpg"></a><br>
+<br>
+Del Hotel Marriott, 600 Metros Oeste<br>
+La Ribera de Belén<br>
+Heredia<br>
+Costa Rica<br>
+Phone:&nbsp; (506) 2293-6681 ext. 10<br>
+<a href="http://www.ldschurchtemples.com/sanjose/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-84.184831</longitude>
+				<latitude>9.986418</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-84.184831,9.986418,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>San Salvador El Salvador Temple</name>
+			<Snippet>135th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/sansalvador/"><img src="http://www.ldschurchtemples.com/sansalvador/images/san-salvador-mormon-temple-thumb.jpg"></a><br>
+<br>
+Colonia San Benito<br>
+Avenida El Espino<br>
+entre Calle El Pedregal y Boulevard Diego de Holguín<br>
+Antiguo Cuscatlán, La Libertad<br>
+El Salvador<br>
+Phone:&nbsp; (503) 2520-2630<br>
+<a href="http://www.ldschurchtemples.com/sansalvador/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-89.246822</longitude>
+				<latitude>13.683347</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-89.246822,13.683347,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Santiago Chile Temple</name>
+			<Snippet>24th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/santiago/"><img src="http://www.ldschurchtemples.com/santiago/images/santiago-mormon-temple-thumb.jpg"></a><br>
+<br>
+Pocuro 1940 Providencia<br>
+Santiago, Región Metropolitana<br>
+Chile<br>
+Phone:&nbsp; (56) 2-340-5070<br>
+<a href="http://www.ldschurchtemples.com/santiago/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-70.609521</longitude>
+				<latitude>-33.436174</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-70.609521,-33.436174,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Santo Domingo Dominican Republic Temple</name>
+			<Snippet>99th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/santodomingo/"><img src="http://www.ldschurchtemples.com/santodomingo/images/santo-domingo-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Bolivar no. 825<br>
+Los Robles<br>
+Santo Domingo, Distrito Nacional<br>
+Dominican Republic<br>
+Phone:&nbsp; 809-731-2000<br>
+<a href="http://www.ldschurchtemples.com/santodomingo/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-69.917144</longitude>
+				<latitude>18.466567</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-69.917144,18.466567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>São Paulo Brazil Temple</name>
+			<Snippet>17th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/saopaulo/"><img src="http://www.ldschurchtemples.com/saopaulo/images/sao-paulo-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Professor Francisco Morato, 2390<br>
+Caxingui<br>
+São Paulo, São Paulo<br>
+Brazil<br>
+Phone:&nbsp; (55) 11-3723-7600<br>
+<a href="http://www.ldschurchtemples.com/saopaulo/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-46.722764</longitude>
+				<latitude>-23.585174</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-46.722764,-23.585174,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sapporo Japan Temple</name>
+			<Snippet>Exterior walls erected; facing retaining walls</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/sapporo/"><img src="http://www.ldschurchtemples.com/sapporo/images/sapporo-mormon-temple-thumb.jpg"></a><br>
+<br>
+1-620-5 Ohyachi-Nishi<br>
+Atsubetsu-ku<br>
+Sapporo-shi, Hokkaidō<br>
+Japan<br>
+]]></description>
+			<LookAt>
+				<longitude>141.444745</longitude>
+				<latitude>43.024641</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>141.444745,43.024641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Seattle Washington Temple</name>
+			<Snippet>19th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/seattle/"><img src="http://www.ldschurchtemples.com/seattle/images/seattle-mormon-temple-thumb.jpg"></a><br>
+<br>
+2808 148th Avenue SE<br>
+Bellevue, Washington<br>
+United States<br>
+Phone:&nbsp; 425-643-5144<br>
+<a href="http://www.ldschurchtemples.com/seattle/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-122.140876</longitude>
+				<latitude>47.584070</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-122.140876,47.584070,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Seoul Korea Temple</name>
+			<Snippet>37th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/seoul/"><img src="http://www.ldschurchtemples.com/seoul/images/seoul-mormon-temple-thumb.jpg"></a><br>
+<br>
+500-23 Changcheon-dong<br>
+Seodaemun-gu<br>
+Seoul-si, Seoul-teukbyeolsi<br>
+South Korea<br>
+Phone:&nbsp; (82) 2-334-9100<br>
+<a href="http://www.ldschurchtemples.com/seoul/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>126.931301</longitude>
+				<latitude>37.558957</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>126.931301,37.558957,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Snowflake Arizona Temple</name>
+			<Snippet>108th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/snowflake/"><img src="http://www.ldschurchtemples.com/snowflake/images/snowflake-mormon-temple-thumb.jpg"></a><br>
+<br>
+1875 West Canyon Drive<br>
+Snowflake, Arizona<br>
+United States<br>
+Phone:&nbsp; 928-536-6626<br>
+<a href="http://www.ldschurchtemples.com/snowflake/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-110.111607</longitude>
+				<latitude>34.502494</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-110.111607,34.502494,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Spokane Washington Temple</name>
+			<Snippet>59th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/spokane/"><img src="http://www.ldschurchtemples.com/spokane/images/spokane-mormon-temple-thumb.jpg"></a><br>
+<br>
+13710 East Belle Terre Avenue<br>
+Spokane, Washington<br>
+United States<br>
+Phone:&nbsp; 509-926-2824<br>
+<a href="http://www.ldschurchtemples.com/spokane/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-117.220690</longitude>
+				<latitude>47.620163</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-117.220690,47.620163,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Star Valley Wyoming Temple</name>
+			<Snippet>Planning and approval phase; initial design plans complete</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/starvalley/"><img src="http://www.ldschurchtemples.com/images/mormon-temple-thumb.jpg"></a><br>
+<br>
+Afton, Wyoming<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-110.929633</longitude>
+				<latitude>42.711555</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<coordinates>-110.929633,42.711555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stockholm Sweden Temple</name>
+			<Snippet>34th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/stockholm/"><img src="http://www.ldschurchtemples.com/stockholm/images/stockholm-mormon-temple-thumb.jpg"></a><br>
+<br>
+Tempelvägen 5<br>
+Västerhaninge<br>
+Sweden<br>
+Phone:&nbsp; (46) 8-500-655-00<br>
+<a href="http://www.ldschurchtemples.com/stockholm/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>18.109177</longitude>
+				<latitude>59.124676</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>18.109177,59.124676,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Suva Fiji Temple</name>
+			<Snippet>91st operating temple; closed for renovation; angel Moroni removed; roof being rebuilt</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/suva/"><img src="http://www.ldschurchtemples.com/suva/images/suva-mormon-temple-thumb.jpg"></a><br>
+<br>
+2-20 Lakeba Street<br>
+Samabula, Suva<br>
+Fiji<br>
+Phone:&nbsp; (679) 338-8952<br>
+<a href="http://www.ldschurchtemples.com/suva/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>178.438559</longitude>
+				<latitude>-18.119705</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>178.438559,-18.119705,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sydney Australia Temple</name>
+			<Snippet>28th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/sydney/"><img src="http://www.ldschurchtemples.com/sydney/images/sydney-mormon-temple-thumb.jpg"></a><br>
+<br>
+756 Pennant Hills Road<br>
+(Corner of Pennant Hills Road and Moseley Street)<br>
+Carlingford, New South Wales<br>
+Australia<br>
+Phone:&nbsp; (61) 02-9841-5471<br>
+<a href="http://www.ldschurchtemples.com/sydney/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>151.050592</longitude>
+				<latitude>-33.775617</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>151.050592,-33.775617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Taipei Taiwan Temple</name>
+			<Snippet>31st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/taipei/"><img src="http://www.ldschurchtemples.com/taipei/images/taipei-mormon-temple-thumb.jpg"></a><br>
+<br>
+256 Ai Kuo East Road<br>
+Taipei<br>
+Taiwan<br>
+Phone:&nbsp; (886) 2-2351-0218<br>
+<a href="http://www.ldschurchtemples.com/taipei/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>121.527794</longitude>
+				<latitude>25.031377</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>121.527794,25.031377,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tampico Mexico Temple</name>
+			<Snippet>83rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/tampico/"><img src="http://www.ldschurchtemples.com/tampico/images/tampico-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Ejército Mexicano no. 74 con 3A Avenida<br>
+Colonia Lomas del Gallo<br>
+Ciudad Madero, Tamaulipas<br>
+Mexico<br>
+Phone:&nbsp; (52) 833-216-9660<br>
+<a href="http://www.ldschurchtemples.com/tampico/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-97.855869</longitude>
+				<latitude>22.254262</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-97.855869,22.254262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tegucigalpa Honduras Temple</name>
+			<Snippet>141st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/tegucigalpa/"><img src="http://www.ldschurchtemples.com/tegucigalpa/images/tegucigalpa-mormon-temple-thumb.jpg"></a><br>
+<br>
+Residenciales Roble Oeste, Boulevard Roble Oeste, 3ra Calle Sur<br>
+Comayagüela, M.D.C., Francisco Morazán<br>
+Honduras<br>
+<a href="http://www.ldschurchtemples.com/tegucigalpa/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-87.238019</longitude>
+				<latitude>14.052174</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-87.238019,14.052174,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Hague Netherlands Temple</name>
+			<Snippet>114th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/thehague/"><img src="http://www.ldschurchtemples.com/thehague/images/the-hague-mormon-temple-thumb.jpg"></a><br>
+<br>
+Osijlaan 2<br>
+Zoetermeer<br>
+Netherlands<br>
+Phone:&nbsp; (31) 79-343-5310<br>
+<a href="http://www.ldschurchtemples.com/thehague/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>4.502979</longitude>
+				<latitude>52.054487</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>4.502979,52.054487,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tijuana Mexico Temple</name>
+			<Snippet>Windows installed; sod laid</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/tijuana/"><img src="http://www.ldschurchtemples.com/tijuana/images/tijuana-mormon-temple-thumb.jpg"></a><br>
+<br>
+Tijuana, Baja California<br>
+Mexico<br>
+]]></description>
+			<LookAt>
+				<longitude>-116.929621</longitude>
+				<latitude>32.488730</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-116.929621,32.488730,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tokyo Japan Temple</name>
+			<Snippet>18th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/tokyo/"><img src="http://www.ldschurchtemples.com/tokyo/images/tokyo-mormon-temple-thumb.jpg"></a><br>
+<br>
+5-8-10 Minami Azabu<br>
+Minato-Ku<br>
+Tokyo<br>
+Japan<br>
+Phone:&nbsp; (81) 3-3442-8171<br>
+<a href="http://www.ldschurchtemples.com/tokyo/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>139.724539</longitude>
+				<latitude>35.652838</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>139.724539,35.652838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Toronto Ontario Temple</name>
+			<Snippet>44th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/toronto/"><img src="http://www.ldschurchtemples.com/toronto/images/toronto-mormon-temple-thumb.jpg"></a><br>
+<br>
+10060 Bramalea Road<br>
+Brampton, Ontario<br>
+Canada<br>
+Phone:&nbsp; 905-799-1122<br>
+<a href="http://www.ldschurchtemples.com/toronto/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-79.746059</longitude>
+				<latitude>43.744338</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-79.746059,43.744338,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Trujillo Peru Temple</name>
+			<Snippet>Landscaping progressing</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/trujillo/"><img src="http://www.ldschurchtemples.com/trujillo/images/trujillo-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Mansiche<br>
+Huanchaco, La Libertad<br>
+Peru<br>
+]]></description>
+			<LookAt>
+				<longitude>-79.058515</longitude>
+				<latitude>-8.100149</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_blu-circle</styleUrl>
+			<Point>
+				<coordinates>-79.058515,-8.100149,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tucson Arizona Temple</name>
+			<Snippet>Construction approval phase; general contractor selected</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/tucson/"><img src="http://www.ldschurchtemples.com/images/mormon-temple-thumb.jpg"></a><br>
+<br>
+Tucson, Arizona<br>
+United States<br>
+]]></description>
+			<LookAt>
+				<longitude>-110.949174</longitude>
+				<latitude>32.338454</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<coordinates>-110.949174,32.338454,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tuxtla Gutiérrez Mexico Temple</name>
+			<Snippet>75th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/tuxtlagutierrez/"><img src="http://www.ldschurchtemples.com/tuxtlagutierrez/images/tuxtla-gutierrez-mormon-temple-thumb.jpg"></a><br>
+<br>
+Carretera a Chicoasen Chiapas Kilómetro 1,4<br>
+Esquina Paseo de la Roseta<br>
+Fraccionamiento San José Chapultepec<br>
+Tuxtla Gutiérrez, Chiapas<br>
+Mexico<br>
+Phone:&nbsp; (52) 961-615-8287<br>
+<a href="http://www.ldschurchtemples.com/tuxtlagutierrez/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-93.159155</longitude>
+				<latitude>16.764164</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-93.159155,16.764164,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Twin Falls Idaho Temple</name>
+			<Snippet>128th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/twinfalls/"><img src="http://www.ldschurchtemples.com/twinfalls/images/twin-falls-mormon-temple-thumb.jpg"></a><br>
+<br>
+1405 Eastland Drive North<br>
+Twin Falls, Idaho<br>
+United States<br>
+Phone:&nbsp; 208-736-7070<br>
+<a href="http://www.ldschurchtemples.com/twinfalls/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-114.441509</longitude>
+				<latitude>42.586827</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-114.441509,42.586827,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vancouver British Columbia Temple</name>
+			<Snippet>131st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/vancouver/"><img src="http://www.ldschurchtemples.com/vancouver/images/vancouver-mormon-temple-thumb.jpg"></a><br>
+<br>
+20370 82nd Avenue<br>
+Langley, British Columbia<br>
+Canada<br>
+Phone:&nbsp; 604-513-5933<br>
+<a href="http://www.ldschurchtemples.com/vancouver/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-122.658009</longitude>
+				<latitude>49.151212</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-122.658009,49.151212,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Veracruz Mexico Temple</name>
+			<Snippet>93rd operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/veracruz/"><img src="http://www.ldschurchtemples.com/veracruz/images/veracruz-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida Ejército Mexicano<br>
+Esquina Michoacán<br>
+Colonia Luís Echeverría<br>
+Boca del Río, Veracruz<br>
+Mexico<br>
+Phone:&nbsp; (52) 229-922-9621<br>
+<a href="http://www.ldschurchtemples.com/veracruz/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-96.10626</longitude>
+				<latitude>19.13441</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-96.10626,19.13441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vernal Utah Temple</name>
+			<Snippet>51st operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/vernal/"><img src="http://www.ldschurchtemples.com/vernal/images/vernal-mormon-temple-thumb.jpg"></a><br>
+<br>
+170 South 400 West<br>
+Vernal, Utah<br>
+United States<br>
+Phone:&nbsp; 435-789-3220<br>
+<a href="http://www.ldschurchtemples.com/vernal/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-109.537413</longitude>
+				<latitude>40.453205</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-109.537413,40.453205,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Villahermosa Mexico Temple</name>
+			<Snippet>85th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/villahermosa/"><img src="http://www.ldschurchtemples.com/villahermosa/images/villahermosa-mormon-temple-thumb.jpg"></a><br>
+<br>
+Avenida 27 de Febrero no. 1717<br>
+Colonia Atasta de Serra<br>
+Villahermosa, Tabasco<br>
+Mexico<br>
+Phone:&nbsp; (52) 993-352-2028<br>
+<a href="http://www.ldschurchtemples.com/villahermosa/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-92.937375</longitude>
+				<latitude>17.981276</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-92.937375,17.981276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Washington D.C. Temple</name>
+			<Snippet>16th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/washington/"><img src="http://www.ldschurchtemples.com/washington/images/washington-mormon-temple-thumb.jpg"></a><br>
+<br>
+9900 Stoneybrook Drive<br>
+Kensington, Maryland<br>
+United States<br>
+Phone:&nbsp; 301-588-0650<br>
+<a href="http://www.ldschurchtemples.com/washington/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-77.065624</longitude>
+				<latitude>39.014079</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-77.065624,39.014079,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Winter Quarters Nebraska Temple</name>
+			<Snippet>104th operating temple</Snippet>
+			<description><![CDATA[<a href="http://www.ldschurchtemples.com/winterquarters/"><img src="http://www.ldschurchtemples.com/winterquarters/images/winter-quarters-mormon-temple-thumb.jpg"></a><br>
+<br>
+8283 North 34th Street<br>
+Omaha, Nebraska<br>
+United States<br>
+Phone:&nbsp; 402-453-3406<br>
+<a href="http://www.ldschurchtemples.com/winterquarters/">Information</a><br>
+]]></description>
+			<LookAt>
+				<longitude>-95.966190</longitude>
+				<latitude>41.334075</latitude>
+				<altitude>0</altitude>
+				<range>300</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<coordinates>-95.966190,41.334075,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
