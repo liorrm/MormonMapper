@@ -2787,7 +2787,7 @@ var setupMarkersInfo = function(locale) {
   // Marker interaction
   locale.on('click', function(e) {
     // 1. center the map on the selected marker.
-    map.setView(locale.getLatLng(), 7, {
+    map.setView(locale.getLatLng(), zoomLevel, {
       pan: { animate: true },
       // zoom: { animate: true }
     });
@@ -2800,7 +2800,7 @@ var setupMarkersInfo = function(locale) {
   locale.bindPopup(popup);
   locale.setIcon(L.icon({
   iconUrl: '../Angel-Moroni.png',
-  iconSize: [34, 34],
+  iconSize: [35, 35],
   iconAnchor: [17, 31],
   popupAnchor: [0, -34]
 }));
@@ -2820,6 +2820,8 @@ var map = L.mapbox.map('map', 'liorrm.khomnofd', {  maxBounds: bounds,
     maxZoom: 19,
     minZoom: 2
 });
+
+var zoomLevel = map.zoom
 
 // zoom the map to that bounding box
 map.fitBounds(bounds);
