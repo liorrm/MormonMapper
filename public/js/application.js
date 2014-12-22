@@ -2753,6 +2753,7 @@ var setupMarkersInfo = function(locale) {
 
   // Each marker on the map.
   var popup = '<h3>' + prop.title + '</h3><div>';
+  popup += '<h4>' + prop.description + '</h4>';
 
   var listing = listings.appendChild(document.createElement('div'));
   listing.className = 'item';
@@ -2761,11 +2762,11 @@ var setupMarkersInfo = function(locale) {
   link.href = '#';
   link.className = 'title';
 
-  // link.innerHTML = prop.address;
-  // if (prop.crossStreet) {
-  //   link.innerHTML += '<br /><small class="quiet">' + prop.crossStreet + '</small>';
-  //   popup += '<br /><small class="quiet">' + prop.crossStreet + '</small>';
-  // }
+  link.innerHTML = prop.title;
+  if (prop.crossStreet) {
+    link.innerHTML += '<br /><small class="quiet">' + prop.crossStreet + '</small>';
+    popup += '<br /><small class="quiet">' + prop.crossStreet + '</small>';
+  }
 
   var details = listing.appendChild(document.createElement('div'));
   details.innerHTML = prop.description;
@@ -2778,7 +2779,7 @@ var setupMarkersInfo = function(locale) {
 
     // When a menu item is clicked, animate the map to center
     // its associated locale and open its popup.
-    map.setView(locale.getLatLng(), 16);
+    // map.setView(locale.getLatLng(), 16);
     locale.openPopup();
     return false;
   };
@@ -2786,7 +2787,7 @@ var setupMarkersInfo = function(locale) {
   // Marker interaction
   locale.on('click', function(e) {
     // 1. center the map on the selected marker.
-    map.setView(locale.getLatLng(), 16, {
+    map.setView(locale.getLatLng(), 7, {
       pan: { animate: true },
       // zoom: { animate: true }
     });
@@ -2799,8 +2800,8 @@ var setupMarkersInfo = function(locale) {
   locale.bindPopup(popup);
   locale.setIcon(L.icon({
   iconUrl: '../Angel-Moroni.png',
-  iconSize: [30, 30],
-  iconAnchor: [28, 28],
+  iconSize: [34, 34],
+  iconAnchor: [17, 31],
   popupAnchor: [0, -34]
 }));
 }
@@ -2811,8 +2812,17 @@ var setupMarkersInfo = function(locale) {
 
 L.mapbox.accessToken = 'pk.eyJ1IjoibGlvcnJtIiwiYSI6InkzM2lOT2sifQ.rKc_Jo2tLLU7vy23ltzAuA';
 
-var map = L.mapbox.map('map', 'liorrm.khomnofd')
-                  .setView([38.909671288923, -77.034084142948], 13)
+var southWest = L.latLng(-90, -180),
+    northEast = L.latLng(90, 180),
+    bounds = L.latLngBounds(southWest, northEast);
+
+var map = L.mapbox.map('map', 'liorrm.khomnofd', {  maxBounds: bounds,
+    maxZoom: 19,
+    minZoom: 2
+});
+
+// zoom the map to that bounding box
+map.fitBounds(bounds);
 
 var locations = L.mapbox.featureLayer().addTo(map);
     locations.setGeoJSON(geojson);
