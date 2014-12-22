@@ -2812,14 +2812,16 @@ var setupMarkersInfo = function(locale) {
 
 L.mapbox.accessToken = 'pk.eyJ1IjoibGlvcnJtIiwiYSI6InkzM2lOT2sifQ.rKc_Jo2tLLU7vy23ltzAuA';
 
-var southWest = L.latLng(-90, -180),
-    northEast = L.latLng(90, 180),
+var southWest = L.latLng(-90, -220),
+    northEast = L.latLng(90, 220),
     bounds = L.latLngBounds(southWest, northEast);
 
 var map = L.mapbox.map('map', 'liorrm.khomnofd', {  maxBounds: bounds,
     maxZoom: 19,
     minZoom: 2
 });
+
+map.setView
 
 var zoomLevel = map.zoom
 
