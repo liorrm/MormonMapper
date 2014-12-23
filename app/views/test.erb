@@ -1,0 +1,12 @@
+<h1>List of Temples</h1>
+<ol>
+<% @temples.each do |temple| %>
+  <li><%= temple.name %></li>
+    <ul>
+      <li><%= temple.snippet %></li>
+      <li><%= temple.address %></li>
+      <li><%= temple.link %></li>
+      <li><%= temple.latitude %>, <%= temple.longitude %></li>
+    </ul>
+<% end %>
+</ol>
