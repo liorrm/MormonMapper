@@ -2832,3 +2832,32 @@ var locations = L.mapbox.featureLayer().addTo(map);
     locations.setGeoJSON(geojson);
     locations.eachLayer(setupMarkersInfo);
 
+if (!navigator.geolocation) {
+    geolocate.innerHTML = 'Geolocation is not available';
+} else {
+    geolocate.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        map.locate();
+    };
+}
+
+// Once we've got a position, zoom and center the map
+// on it, and add a single marker.
+map.on('locationfound', function(e) {
+
+  console.log("HEYYYYY", map, bounds)
+
+    // map.fitBounds(e.bounds);
+  L.geoJson().addData()
+
+    // And hide the geolocation button
+    geolocate.parentNode.removeChild(geolocate);
+});
+
+// If the user chooses not to allow their location
+// to be shared, display an error message.
+map.on('locationerror', function() {
+    geolocate.innerHTML = 'Position could not be found';
+});
+
