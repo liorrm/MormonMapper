@@ -26,3 +26,9 @@ group :test, :development do
   gem 'factory_girl'
   gem 'faker'
 end
+
+# Project-specific gems
+
+gem 'nokogiri'
+gem 'awesome_print'
+gem 'json'
