@@ -1,8 +1,8 @@
 
 body {
-  background-color: #404040;
-  color: rgb(255,255,255);
-  font: 'Helvetica Neue', Helvetica, Arial
+  background-color: rgb(240, 230,245);
+  color: rgb(30, 20, 40);
+  font: 'Avenir', Helvetica, Arial
   margin:0;
   padding:0;
   -webkit-font-smoothing:antialiased;
