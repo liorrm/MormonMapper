@@ -13,7 +13,17 @@
   <link rel="stylesheet" href="/css/application.css">
 </head>
 <body>
+  <div class="hidden-data">
+
+    <ul>
+      <% @temples.each do |temple| %>
+        <li class='json'><%= temple.to_json %></li>
+      <% end %>
+    </ul>
+  </div>
+
   <%= yield %>
+  <script src="/js/formatJSON.js"></script>
   <script src="/js/application.js"></script>
 </body>
 </html>

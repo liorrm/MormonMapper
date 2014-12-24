@@ -168,3 +168,7 @@ a:hover { color:#101010; }
   background:#3074a4;
   color:#fff;
   }
+
+.hidden-data {
+  display: none;
+}
