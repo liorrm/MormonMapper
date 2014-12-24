@@ -47,3 +47,38 @@ primitiveJSON = []
 for (var i=0; i<htmlJSON.length; i++) {
   primitiveJSON.push(JSON.parse(htmlJSON[i].innerHTML))
 }
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////// DEFINE FUNCTION TO REFORMAT JSON TO GEOJSON /////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+var reformatToGeoJSON = function(object){
+
+  var geoJSONTemplate =
+  {
+    "type":"Feature",
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        7.356719,
+        5.147644
+      ]
+    },
+    "properties":{
+      "name": "Aba Nigeria Temple",
+      "snippet": "121st operating temple",
+      "link": "<link>",
+      "address": "<address>"
+    }
+  }
+
+  geoJSONTemplate["geometry"]["coordinates"] = [parseFloat(object["latitude"]), parseFloat(object["longitude"])] // keep going like this!
+  geoJSONTemplate["properties"]["name"] = object["name"]
+  geoJSONTemplate["properties"]["snippet"] = object["snippet"]
+  geoJSONTemplate["properties"]["link"] = object["link"]
+  geoJSONTemplate["properties"]["address"] = object["address"]
+
+  return geoJSONTemplate
+
+}
