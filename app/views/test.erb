@@ -2,6 +2,7 @@
 <ol>
 <% @temples.each do |temple| %>
   <li><%= temple.name %></li>
+  <li class='json'><%= temple.to_json %></li>
     <ul>
       <li><%= temple.snippet %></li>
       <li><%= temple.address %></li>
