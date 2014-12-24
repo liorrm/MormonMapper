@@ -18,48 +18,49 @@ function setActive(el) {
   el.className += ' active';
 }
 
-var setupMarkersInfo = function(locale) {
-  // Shorten locale.feature.properties to just `prop` so we're not
+var setupMarkersInfo = function(temple) {
+  // Shorten temple.feature.properties to just `prop` so we're not
   // writing this long form over and over again.
-  var prop = locale.feature.properties;
+  var prop = temple.feature.properties;
 
   // Each marker on the map.
-  var popup = '<h3>' + prop.title + '</h3><div>';
-  popup += '<h4>' + prop.description + '</h4>';
+  var popup = '<h3>' + prop.name + '</h3><div>';
+  popup += '<h4>' + prop.snippet + '</h4>';
 
   var listing = listings.appendChild(document.createElement('div'));
   listing.className = 'item';
 
   var link = listing.appendChild(document.createElement('a'));
-  link.href = '#';
+  link.href = listing.link;
   link.className = 'title';
 
-  link.innerHTML = prop.title;
-  if (prop.crossStreet) {
-    link.innerHTML += '<br /><small class="quiet">' + prop.crossStreet + '</small>';
-    popup += '<br /><small class="quiet">' + prop.crossStreet + '</small>';
-  }
+  link.innerHTML = prop.name;
+  link.innerHTML += '<br /><small class="quiet">' + prop.address + '</small>'
+  // if (prop.crossStreet) {
+  //   link.innerHTML += '<br /><small class="quiet">' + prop.crossStreet + '</small>';
+  //   popup += '<br /><small class="quiet">' + prop.crossStreet + '</small>';
+  // }
 
   var details = listing.appendChild(document.createElement('div'));
-  details.innerHTML = prop.description;
-  if (prop.phone) {
-    details.innerHTML += ' &middot; ' + prop.phoneFormatted;
-  }
+  details.innerHTML = prop.snippet;
+  // if (prop.phone) {
+  //   details.innerHTML += ' &middot; ' + prop.phoneFormatted;
+  // }
 
   link.onclick = function() {
     setActive(listing);
 
     // When a menu item is clicked, animate the map to center
-    // its associated locale and open its popup.
-    // map.setView(locale.getLatLng(), 16);
-    locale.openPopup();
+    // its associated temple and open its popup.
+    // map.setView(temple.getLatLng(), 16);
+    temple.openPopup();
     return false;
   };
 
   // Marker interaction
-  locale.on('click', function(e) {
+  temple.on('click', function(e) {
     // 1. center the map on the selected marker.
-    map.setView(locale.getLatLng(), zoomLevel, {
+    map.setView(temple.getLatLng(), zoomLevel, {
       pan: { animate: true },
       // zoom: { animate: true }
     });
@@ -69,8 +70,8 @@ var setupMarkersInfo = function(locale) {
   });
 
   popup += '</div>';
-  locale.bindPopup(popup);
-  locale.setIcon(L.icon({
+  temple.bindPopup(popup);
+  temple.setIcon(L.icon({
   iconUrl: '../Angel-Moroni.png',
   iconSize: [35, 35],
   iconAnchor: [17, 31],
