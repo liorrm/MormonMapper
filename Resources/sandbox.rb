@@ -1,3 +1,5 @@
+### Later on, add columns to temple to allow for sorting and year range and such
+
 require 'nokogiri'
 
 p Dir.pwd
