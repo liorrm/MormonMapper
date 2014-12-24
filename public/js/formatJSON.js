@@ -1,21 +1,20 @@
 
 
 ////////////////////////////////////////////////////////////////////////////////
-//////////////////// SET UP SKELETON FORMAT FOR geoJSON ARRAY //////////////////
+//////////////////// SET UP SKELETON FORMAT FOR geojson ARRAY //////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
 
-geoJSON = [
+var geojson =
   [
     {
       "type": "FeatureCollection",
       "features": []
     }
   ]
-          ]
 
 
-example = {
+var example = {
             address: "Okpu-Umuoba Road • Off Aba-Owerri Road at Union Bank • Aba, Abia State • Nigeria • ",
             created_at: "2014-12-23T21:23:03.470Z",
             id: 1,
@@ -41,7 +40,7 @@ var htmlJSON = document.getElementsByClassName('json')
 ///////// PARSE EACH JSON STRING INTO TRUE JSON, GATHER THEM INTO ARRAY ////////
 ////////////////////////////////////////////////////////////////////////////////
 
-primitiveJSON = []
+var primitiveJSON = []
 
 
 for (var i=0; i<htmlJSON.length; i++) {
@@ -55,7 +54,7 @@ for (var i=0; i<htmlJSON.length; i++) {
 
 var reformatToGeoJSON = function(object){
 
-  var geoJSONTemplate =
+  var geojsonTemplate =
   {
     "type":"Feature",
     "geometry":{
@@ -73,13 +72,13 @@ var reformatToGeoJSON = function(object){
     }
   }
 
-  geoJSONTemplate["geometry"]["coordinates"] = [parseFloat(object["latitude"]), parseFloat(object["longitude"])] // keep going like this!
-  geoJSONTemplate["properties"]["name"] = object["name"]
-  geoJSONTemplate["properties"]["snippet"] = object["snippet"]
-  geoJSONTemplate["properties"]["link"] = object["link"]
-  geoJSONTemplate["properties"]["address"] = object["address"]
+  geojsonTemplate["geometry"]["coordinates"] = [parseFloat(object["latitude"]), parseFloat(object["longitude"])] // keep going like this!
+  geojsonTemplate["properties"]["name"] = object["name"]
+  geojsonTemplate["properties"]["snippet"] = object["snippet"]
+  geojsonTemplate["properties"]["link"] = object["link"]
+  geojsonTemplate["properties"]["address"] = object["address"]
 
-  return geoJSONTemplate
+  return geojsonTemplate
 
 }
 
@@ -88,7 +87,7 @@ var reformatToGeoJSON = function(object){
 ////////////////////////////////////////////////////////////////////////////////
 
 for (var i=0; i<primitiveJSON.length; i++) {
-  geoJSON[0][0]["features"].push(reformatToGeoJSON(primitiveJSON[i]))
+  geojson[0]["features"].push(reformatToGeoJSON(primitiveJSON[i]))
 }
 
-
+console.log("better be right", geojson)
