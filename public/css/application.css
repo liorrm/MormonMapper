@@ -99,20 +99,22 @@ a:hover {
 
 .listings .item .title {
   display: block;
-  color: #00853e;
-  /* change color here */
+  color: rgb(56, 76, 106);
   font-weight: 700;
 }
 
-.listings .item .title small { font-weight: 400;
+.listings .item .title small {
+  font-weight: 400;
 }
 
 .listings .item.active .title,
-.listings .item .title:hover { color: #8cc63f;
+.listings .item .title:hover {
+  color: rgb(241, 176, 68);
 }
 
 .listings .item.active {
-  background-color: #f8f8f8;
+  background-color: rgb(250, 250, 250);
+  height: 130px;
 }
 
 ::-webkit-scrollbar {
@@ -127,7 +129,7 @@ a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00853e;
+  background: rgb(241, 176, 68);
   border-radius: 0;
 }
 
@@ -155,12 +157,13 @@ a:hover {
 }
 
 .leaflet-popup-content-wrapper {
+  background-color: rgba(255,255,255,0.85);
   padding: 0;
 }
 
 .leaflet-popup-content h3 {
-  background: #91c949;
-  color: #fff;
+  background-color: rgb(56, 76, 106);
+  color: rgb(241, 176, 68);
   margin: 0;
   display: block;
   padding: 10px;
@@ -171,9 +174,11 @@ a:hover {
 
 .leaflet-popup-content div {
   padding: 10px;
+  background-color: rgba(50, 50, 80);
 }
 
-.leaflet-container .leaflet-marker-icon { cursor: pointer; }
+.leaflet-container .leaflet-marker-icon { cursor: pointer;
+}
 
 .ui-button {
   background: #3887BE;
