@@ -16,6 +16,7 @@ function setActive(el) {
   }
 
   el.className += ' active';
+  $('.listings').scrollTo('.active')
 }
 
 var setupMarkersInfo = function(temple) {
