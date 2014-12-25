@@ -46,7 +46,6 @@ a:hover {
   color: #101010;
 }
 
-
 .pad2 {
   padding: 20px;
 }
@@ -64,7 +63,7 @@ a:hover {
 }
 
 .sidebar {
-  background-color: rgba(242, 240, 242, 0.8);
+  background-color: rgba(242, 240, 242, 0.9);
   position: absolute;
   width: 20%;
   height: 100%;
@@ -73,6 +72,17 @@ a:hover {
   overflow: hidden;
   border-right: 1px solid rgba(0,0,0,0.25);
   z-index: 1;
+  -webkit-transition: 0.5s
+}
+
+.sidebar:hover {
+  width: 40%;
+  -webkit-transform: 0.5s;
+}
+
+.hover {
+  width: 40%;
+  -webkit-transform: 0.5s;
 }
 
 .heading {
@@ -94,9 +104,8 @@ a:hover {
   border-bottom: 1px solid #eee;
   padding: 10px;
   text-decoration: none;
-  min-height: 50px;
+  height: 75px;
   overflow: hidden;
-}
 }
 
 .listings .item:last-child { border-bottom: none;
@@ -119,7 +128,7 @@ a:hover {
 
 .listings .item.active {
   background-color: rgb(250, 250, 250);
-  height: 130px;
+  height: 200px;
 }
 
 ::-webkit-scrollbar {
@@ -150,13 +159,12 @@ a:hover {
   visibility: hidden;
 }
 
-
 .leaflet-popup-close-button {
   display: none;
 }
 
 .leaflet-popup-content {
-  font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+  /*font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;*/
   padding: 0;
   width: 200px;
 }
