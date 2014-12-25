@@ -67,5 +67,3 @@ var reformatToGeoJSON = function(object){
 for (var i=0; i<primitiveJSON.length; i++) {
   geojson[0]["features"].push(reformatToGeoJSON(primitiveJSON[i]))
 }
-
-console.log("better be right", geojson)
