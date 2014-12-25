@@ -1,17 +1,22 @@
+html {
+  font-family: "Sorts Mill Goudy";
+}
+
 
 body {
   background-color: rgb(242, 240, 242);
   color: rgb(30, 20, 40);
-  font: 'Avenir', Helvetica, Arial
+  /*font: 'Avenir', Helvetica, Arial;*/
+  font-family: "Sorts Mill Goudy";
   margin: 0;
   padding: 0;
   -webkit-font-smoothing:antialiased;
 }
 
-.sidebar {
-  width: 33.3333%;
+.heading {
+  text-align: center;
+  font-family: "Sorts Mill Goudy";
 }
-
 
 .pad2 {
   padding: 20px;
