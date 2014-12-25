@@ -41,15 +41,6 @@ a:hover {
   color: #101010;
 }
 
-.sidebar {
-  position: absolute;
-  width: 33.3333%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  border-right: 1px solid rgba(0,0,0,0.25);
-}
 
 .pad2 {
   padding: 20px;
@@ -61,10 +52,22 @@ a:hover {
 
 .map {
   position: absolute;
-  left: 33.3333%;
-  width: 66.6666%;
+  width: 100%;
   top: 0;
   bottom: 0;
+  z-index: 0;
+}
+
+.sidebar {
+  background-color: rgba(242, 240, 242, 0.8);
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  border-right: 1px solid rgba(0,0,0,0.25);
+  z-index: 1;
 }
 
 .heading {
