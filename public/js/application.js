@@ -26,7 +26,6 @@ var setupMarkersInfo = function(temple) {
 
   // Each marker on the map.
   var popup = '<h3>' + prop.name + '</h3><div>';
-  popup += '<h4>' + prop.snippet + '</h4>';
 
   var listing = listings.appendChild(document.createElement('div'));
   listing.className = 'item';
