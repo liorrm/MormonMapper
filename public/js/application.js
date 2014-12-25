@@ -78,7 +78,7 @@ var setupMarkersInfo = function(temple) {
 
 L.mapbox.accessToken = 'pk.eyJ1IjoibGlvcnJtIiwiYSI6InkzM2lOT2sifQ.rKc_Jo2tLLU7vy23ltzAuA';
 
-var southWest = L.latLng(-90, -295),
+var southWest = L.latLng(-90, -340),
     northEast = L.latLng(90, 235),
     bounds = L.latLngBounds(southWest, northEast);
 
