@@ -1,9 +1,17 @@
-<div class='sidebar pad2'>Listing</div>
-<div class='sidebar'>
-  <div class='heading'>
-    <h1>Temples</h1>
+  <div class='sidebar pad2'>Listing</div>
+  <div class='sidebar'>
+    <div class='heading'>
+      <h1>Temples</h1>
+    </div>
+    <div id='listings' class='listings'></div>
   </div>
-  <div id='listings' class='listings'></div>
-</div>
-<div id='map' class='map pad2'>Map</div>
-<a href='#' id='geolocate' class='ui-button'>Current Location</a>
+  <div id='map' class='map pad2'>Map</div>
+  <a href='#' id='geolocate' class='ui-button'>Current Location</a>
+
+  <script type="text/javascript">
+    var primitiveJSON = [
+    <% @temples.each do |temple| %>
+      <%= temple.to_json %>,
+    <% end %>
+    ]
+  </script>
