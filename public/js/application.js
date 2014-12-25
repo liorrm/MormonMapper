@@ -36,16 +36,10 @@ var setupMarkersInfo = function(temple) {
 
   link.innerHTML = prop.name;
   link.innerHTML += '<br /><small class="quiet">' + prop.address + '</small>'
-  // if (prop.crossStreet) {
-  //   link.innerHTML += '<br /><small class="quiet">' + prop.crossStreet + '</small>';
-  //   popup += '<br /><small class="quiet">' + prop.crossStreet + '</small>';
-  // }
 
   var details = listing.appendChild(document.createElement('div'));
   details.innerHTML = prop.snippet;
-  // if (prop.phone) {
-  //   details.innerHTML += ' &middot; ' + prop.phoneFormatted;
-  // }
+
 
   link.onclick = function() {
     setActive(listing);
@@ -61,8 +55,7 @@ var setupMarkersInfo = function(temple) {
   temple.on('click', function(e) {
     // 1. center the map on the selected marker.
     map.setView(temple.getLatLng(), zoomLevel, {
-      pan: { animate: true },
-      // zoom: { animate: true }
+      pan: { animate: true }
     });
 
     // 2. Set active the markers associated listing.
