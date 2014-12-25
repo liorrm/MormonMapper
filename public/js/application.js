@@ -69,7 +69,7 @@ var setupMarkersInfo = function(temple) {
   iconSize: [35, 35],
   iconAnchor: [17, 31],
   popupAnchor: [0, -34]
-}));
+  }));
 }
 
 //////////////////////
@@ -78,8 +78,8 @@ var setupMarkersInfo = function(temple) {
 
 L.mapbox.accessToken = 'pk.eyJ1IjoibGlvcnJtIiwiYSI6InkzM2lOT2sifQ.rKc_Jo2tLLU7vy23ltzAuA';
 
-var southWest = L.latLng(-90, -220),
-    northEast = L.latLng(90, 220),
+var southWest = L.latLng(-90, -295),
+    northEast = L.latLng(90, 235),
     bounds = L.latLngBounds(southWest, northEast);
 
 var map = L.mapbox.map('map', 'liorrm.khomnofd', {  maxBounds: bounds,
