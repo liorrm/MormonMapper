@@ -65,7 +65,6 @@ var setupMarkersInfo = function(temple) {
 
   popup += '</div>';
   temple.bindPopup(popup);
-  console.log(popup)
 
   if (popup.indexOf("operating temple") != -1) {
     temple.setIcon(L.icon({
