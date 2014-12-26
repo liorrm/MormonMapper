@@ -26,6 +26,7 @@ var setupMarkersInfo = function(temple) {
 
   // Each marker on the map.
   var popup = '<h3>' + prop.name + '</h3><div>';
+  var popup = popup + '<h4>' + prop.snippet + '</h4>';
 
   var listing = listings.appendChild(document.createElement('div'));
   listing.className = 'item';
@@ -64,12 +65,23 @@ var setupMarkersInfo = function(temple) {
 
   popup += '</div>';
   temple.bindPopup(popup);
-  temple.setIcon(L.icon({
-  iconUrl: '../Angel-Moroni.png',
-  iconSize: [35, 35],
-  iconAnchor: [17, 31],
-  popupAnchor: [0, -34]
-  }));
+  console.log(popup)
+
+  if (popup.indexOf("operating temple") != -1) {
+    temple.setIcon(L.icon({
+      iconUrl: '../Angel-Moroni.png',
+      iconSize: [35, 35],
+      iconAnchor: [17, 31],
+      popupAnchor: [0, -34]
+    }));
+  } else {
+    temple.setIcon(L.icon({
+      iconUrl: '../moroni-purple.png',
+      iconSize: [35, 30],
+      iconAnchor: [17, 31],
+      popupAnchor: [0, -34]
+    }));
+  }
 }
 
 //////////////////////
