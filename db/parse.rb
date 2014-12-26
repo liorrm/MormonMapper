@@ -27,5 +27,29 @@ require 'json'
 
 # temple_pages.each do |temple|
 #   temple.css('milestone')
-p Dir.pwd
-ap JSON.parse(File.read("temple_dates.json"))
+temple_pages = JSON.parse(File.read("temple_dates.json"))
+
+
+milestone_pattern = /milestone">(.+?)<br>/
+
+temple_data = []
+counter = 1
+temple_pages.each do |temple|
+  temple_data << temple.scan(milestone_pattern)
+end
+
+temple_data.each do |temple|
+  temple.each do |milestone|
+    milestone.each do |wtf|
+      wtf.gsub!("</span>", "")
+      # wtf.gsub!("  ", " ")
+    end
+  end
+end
+
+
+ap temple_data
+
+
+
+
