@@ -47,7 +47,7 @@ var setupMarkersInfo = function(temple) {
 
     // When a menu item is clicked, animate the map to center
     // its associated temple and open its popup.
-    // map.setView(temple.getLatLng(), 16);
+    map.setView(temple.getLatLng(), zoomLevel, { pan: { animate: true }});
     temple.openPopup();
     return false;
   };
