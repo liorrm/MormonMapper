@@ -27,7 +27,7 @@ require 'json'
 
 # temple_pages.each do |temple|
 #   temple.css('milestone')
-temple_pages = JSON.parse(File.read("temple_dates.json"))
+temple_pages = JSON.parse(File.read("db/temple_dates.json"))
 
 
 milestone_pattern = /milestone">(.+?)<br>/
@@ -42,13 +42,17 @@ temple_data.each do |temple|
   temple.each do |milestone|
     milestone.each do |wtf|
       wtf.gsub!("</span>", "")
-      # wtf.gsub!("  ", " ")
     end
   end
 end
 
+# ap temple_data
 
-ap temple_data
+
+# Temple.all.each_with_index do |temple, index|
+#   temple.announcement = temple_data[index][0][0]
+#   temple.save
+# end
 
 
 
