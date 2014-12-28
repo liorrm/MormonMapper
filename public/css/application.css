@@ -180,9 +180,10 @@ a:hover {
 }
 
 .leaflet-popup-content-wrapper {
-  border: 3px solid rgb(241, 176, 68);
+  border: 2.4px solid rgb(241, 176, 68);
   background-color: rgba(255,255,255,0.85);
   padding: 0;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 .leaflet-popup-content h3 {
@@ -199,10 +200,14 @@ a:hover {
 
 .leaflet-popup-content div {
   padding: 10px;
-  background-color: rgba(50, 50, 80);
 }
 
-.leaflet-container .leaflet-marker-icon { cursor: pointer;
+.leaflet-container .leaflet-marker-icon {
+  cursor: pointer;
+}
+
+.leaflet-popup-tip {
+  border-top: 10px solid rgb(241, 176, 68);
 }
 
 #holy {
