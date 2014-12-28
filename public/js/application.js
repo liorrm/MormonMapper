@@ -40,22 +40,29 @@ var setupMarkersInfo = function(temple) {
   link.innerHTML += '<br /><small class="quiet">' + prop.address + '</small>'
 
   var details = listing.appendChild(document.createElement('div'));
-  details.innerHTML = prop.snippet;
-  if (prop.announcement) {
-    details.innerHTML += "<br>Announcement Date: " + prop.announcement + "<br>"
+  tableData = "<span class='temple-order'>" + prop.snippet + "</span>"
+  tableData += "<table>"
+  if (prop.announcement) {           /// moment("2000-04-02").format("LL")
+    tableData += "<tr><td>Announcement:</td><td>" + moment(prop.announcement).format("LL") + "</td></tr>"
   }
   if (prop.groundbreaking) {
-    details.innerHTML += "Groundbreaking: " + prop.groundbreaking + " by " + prop.site_dedicator + "<br>"
+    tableData += "<tr><td>Groundbreaking:</td><td>" + moment(prop.groundbreaking).format("LL") + "&nbsp;&nbsp;by&nbsp;&nbsp;" + prop.site_dedicator + "</td></tr>"
   }
   if (prop.dedication) {
-    details.innerHTML += "Dedication: " + prop.dedication + " by " + prop.dedicator + "<br>"
+    tableData += "<tr><td>Dedication:</td><td>" + moment(prop.dedication).format("LL") + "&nbsp;&nbsp;by&nbsp;&nbsp;" + prop.dedicator + "</td></tr>"
   }
   if (prop.exterior_finish) {
-    details.innerHTML += "Exterior Finish: " + prop.exterior_finish + "<br>"
+    tableData += "<tr><td>Exterior Finish:</td><td>" + prop.exterior_finish + "</td></tr>"
   }
   if (prop.site) {
-    details.innerHTML += "Site: " + prop.site + "<br>"
+    tableData += "<tr><td>Site:</td><td>" + prop.site + "</td></tr>"
   }
+  if (prop.total_floor_area) {
+    tableData += "<tr><td>Total Floor Area:</td><td>" + prop.total_floor_area + "</td></tr>"
+  }
+  tableData += "</table>"
+
+  details.innerHTML = tableData
 
   link.onclick = function() {
     setActive(listing);
