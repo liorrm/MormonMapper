@@ -110,6 +110,7 @@ a:hover {
   text-decoration: none;
   height: 78px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .listings .item:last-child { border-bottom: none;
