@@ -1,41 +1,39 @@
-require 'awesome_print'
-require 'json'
-require_relative 'parse'
+# require 'awesome_print'
+# require 'json'
+# require_relative 'parse'
 
 temple_data = JSON.parse(File.read("db/database.json"), symbolize_names: true)
 
-# temple_data.each do |temple|
-#   Temple.create(temple)
+temple_data.each do |temple|
+  Temple.create(temple)
+end
+
+# temple_pages = JSON.parse(File.read("db/temple_dates.json"))
+
+
+# milestone_pattern = /milestone">(.+?)<br>/
+
+# temple_data = []
+# counter = 1
+# temple_pages.each do |temple|
+#   temple_data << temple.scan(milestone_pattern)
 # end
 
-Temple.all.each do |temple|
-  puts "#{temple.id}. #{temple.name}: #{temple.address}"
-  puts ""
-  puts ""
-  puts " "
-  # if temple.address[-2] == "•"
-  #   temple.address = temple.address[0..-3]
-  # end
-end
-
-temple_pages = JSON.parse(File.read("db/temple_dates.json"))
+# temple_data.each do |temple|
+#   temple.each do |milestone|
+#     milestone.each do |wtf|
+#       wtf.gsub!("</span>", "")
+#     end
+#   end
+# end
 
 
-milestone_pattern = /milestone">(.+?)<br>/
 
-temple_data = []
-counter = 1
-temple_pages.each do |temple|
-  temple_data << temple.scan(milestone_pattern)
-end
-
-temple_data.each do |temple|
-  temple.each do |milestone|
-    milestone.each do |wtf|
-      wtf.gsub!("</span>", "")
-    end
-  end
-end
+#### Script for creating a json copy of database ####
+# File.open('database.json', 'w') do |file|
+#   file.puts Temple.all.order(id: :asc).to_json
+# end
+#######################################################
 
 # ap temple_data
 
