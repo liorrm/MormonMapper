@@ -29,7 +29,6 @@ h4 {
 }
 
 
-
 * {
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
@@ -133,7 +132,14 @@ a:hover {
 
 .listings .item.active {
   background-color: rgb(250, 250, 250);
-  height: 250px;
+  height: 270px;
+  overflow: scroll;
+}
+
+.temple-order {
+  font-family: "Sorts Mill Goudy";
+  font-style: italic;
+  color: rgb(120, 120, 120);
 }
 
 ::-webkit-scrollbar {
@@ -207,4 +213,13 @@ a:hover {
 
 .caps {
  font-size: 11pt;
+}
+
+table {
+
+}
+
+td {
+  padding: 5px;
+  margin: 5px;
 }
