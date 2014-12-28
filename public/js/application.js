@@ -64,7 +64,7 @@ var setupMarkersInfo = function(temple) {
 
   details.innerHTML = tableData
 
-  link.onclick = function() {
+  listing.onclick = function() {
     setActive(listing);
 
     // When a menu item is clicked, animate the map to center
