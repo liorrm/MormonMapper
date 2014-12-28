@@ -116,9 +116,10 @@ var southWest = L.latLng(-90, -390),
     northEast = L.latLng(90, 235),
     bounds = L.latLngBounds(southWest, northEast);
 
-var map = L.mapbox.map('map', 'liorrm.khomnofd', {  maxBounds: bounds,
-    maxZoom: 19,
-    minZoom: 2
+var map = L.mapbox.map('map', 'liorrm.khomnofd', { zoomControl: false,
+  maxBounds: bounds,
+  maxZoom: 19,
+  minZoom: 2
 });
 
 map.setView
@@ -127,6 +128,9 @@ var zoomLevel = map.zoom
 
 // zoom the map to that bounding box
 map.fitBounds(bounds);
+
+new L.Control.Zoom({ position: 'topright' }).addTo(map);
+
 
 var locations = L.mapbox.featureLayer().addTo(map);
 
