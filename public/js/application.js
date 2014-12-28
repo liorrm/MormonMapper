@@ -41,7 +41,21 @@ var setupMarkersInfo = function(temple) {
 
   var details = listing.appendChild(document.createElement('div'));
   details.innerHTML = prop.snippet;
-
+  if (prop.announcement) {
+    details.innerHTML += "<br>Announcement Date: " + prop.announcement + "<br>"
+  }
+  if (prop.groundbreaking) {
+    details.innerHTML += "Groundbreaking: " + prop.groundbreaking + " by " + prop.site_dedicator + "<br>"
+  }
+  if (prop.dedication) {
+    details.innerHTML += "Dedication: " + prop.dedication + " by " + prop.dedicator + "<br>"
+  }
+  if (prop.exterior_finish) {
+    details.innerHTML += "Exterior Finish: " + prop.exterior_finish + "<br>"
+  }
+  if (prop.site) {
+    details.innerHTML += "Site: " + prop.site + "<br>"
+  }
 
   link.onclick = function() {
     setActive(listing);
@@ -91,7 +105,7 @@ var setupMarkersInfo = function(temple) {
 
 L.mapbox.accessToken = 'pk.eyJ1IjoibGlvcnJtIiwiYSI6InkzM2lOT2sifQ.rKc_Jo2tLLU7vy23ltzAuA';
 
-var southWest = L.latLng(-90, -340),
+var southWest = L.latLng(-90, -390),
     northEast = L.latLng(90, 235),
     bounds = L.latLngBounds(southWest, northEast);
 

@@ -15,15 +15,23 @@ var geojson =
 
 
 var example = {
-            address: "Okpu-Umuoba Road • Off Aba-Owerri Road at Union Bank • Aba, Abia State • Nigeria • ",
-            created_at: "2014-12-23T21:23:03.470Z",
             id: 1,
-            latitude: "7.356719",
-            link: "http://www.ldschurchtemples.com/aba/",
-            longitude: "5.147644",
             name: "Aba Nigeria Temple",
             snippet: "121st operating temple",
-            updated_at: "2014-12-23T21:23:03.470Z"
+            address: "Okpu-Umuoba Road • Off Aba-Owerri Road at Union Bank • Aba, Abia State • Nigeria • ",
+            link: "http://www.ldschurchtemples.com/aba/",
+            latitude: "7.356719",
+            longitude: "5.147644",
+            created_at: "2014-12-23T21:23:03.470Z",
+            updated_at: "2014-12-23T21:23:03.470Z",
+            announcement: "2000-04-02",
+            groundbreaking: "2002-02-23",
+            site_dedicator: "H. Bruce Stucki",
+            dedication: "2005-08-07",
+            dedicator: "name",
+            site: "6.3 acres",
+            exterior_finish: "Namibian pearl granite",
+            total_floor_area: "11,500 square feet"
           }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -46,7 +54,14 @@ var reformatToGeoJSON = function(object){
       "name": "Aba Nigeria Temple",
       "snippet": "121st operating temple",
       "link": "<link>",
-      "address": "<address>"
+      "address": "<address>",
+      "announcement": "date",
+      "groundbreaking": "date",
+      "site_dedicator": "name",
+      "dedication": "date",
+      "site": "acreage",
+      "exterior_finish": "description",
+      "total_floor_area": "number"
     }
   }
 
@@ -55,6 +70,14 @@ var reformatToGeoJSON = function(object){
   geojsonTemplate["properties"]["snippet"] = object["snippet"]
   geojsonTemplate["properties"]["link"] = object["link"]
   geojsonTemplate["properties"]["address"] = object["address"]
+  geojsonTemplate["properties"]["announcement"] = object["announcement"]
+  geojsonTemplate["properties"]["groundbreaking"] = object["groundbreaking"]
+  geojsonTemplate["properties"]["site_dedicator"] = object["site_dedicator"]
+  geojsonTemplate["properties"]["dedication"] = object["dedication"]
+  geojsonTemplate["properties"]["dedicator"] = object["dedicator"]
+  geojsonTemplate["properties"]["site"] = object["site"]
+  geojsonTemplate["properties"]["exterior_finish"] = object["exterior_finish"]
+  geojsonTemplate["properties"]["total_floor_area"] = object["total_floor_area"]
 
   return geojsonTemplate
 
