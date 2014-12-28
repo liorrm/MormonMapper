@@ -136,3 +136,9 @@ var locations = L.mapbox.featureLayer().addTo(map);
 
     locations.setGeoJSON(geojson);
     locations.eachLayer(setupMarkersInfo);
+
+
+$('#search').on('keyup', function() {
+  searchTemples($(this).val());
+});
+

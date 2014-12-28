@@ -13,8 +13,32 @@ body {
 }
 
 .heading {
+  height: 90px;
   text-align: center;
-  font-family: "Sorts Mill Goudy";
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 0 10px;
+  padding-top: 5px;
+}
+
+h1 {
+  color: rgb(56, 76, 106);
+  font-weight: bold;
+}
+
+input {
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-top: 10px;
+  width: 95%;
+  box-shadow: none;
+  transition: box-shadow 0.5s;
+}
+
+input:focus {
+  box-shadow: 0 0 10px rgb(241, 176, 68);
+  outline: none;
+  border: none;
 }
 
 .pad2 {
@@ -89,15 +113,9 @@ a:hover {
   -webkit-transform: 0.5s;
 }
 
-.heading {
-  background: #fff;
-  border-bottom: 1px solid #eee;
-  height: 60px;
-  line-height: 60px;
-  padding: 0 10px;
-}
 
 .listings {
+  top: 90px;
   height: 100%;
   overflow: auto;
   padding-bottom: 60px;
