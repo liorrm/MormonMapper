@@ -119,6 +119,7 @@ a:hover {
   display: block;
   color: rgb(56, 76, 106);
   font-weight: 700;
+  -webkit-transition: 0.3s
 }
 
 .listings .item .title small {
@@ -128,6 +129,7 @@ a:hover {
 .listings .item.active .title,
 .listings .item .title:hover {
   color: rgb(241, 176, 68);
+  -webkit-transition: 0.35s
 }
 
 .listings .item.active {
@@ -139,7 +141,7 @@ a:hover {
 .temple-order {
   font-family: "Sorts Mill Goudy";
   font-style: italic;
-  color: rgb(120, 120, 120);
+  color: rgb(120, 120, 110);
 }
 
 ::-webkit-scrollbar {
@@ -218,10 +220,6 @@ a:hover {
 
 .caps {
  font-size: 11pt;
-}
-
-table {
-
 }
 
 td {
