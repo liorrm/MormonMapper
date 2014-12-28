@@ -8,14 +8,14 @@ var listings = document.getElementById('listings');
 /// HELPER METHODS ///
 //////////////////////
 
-function setActive(el) {
+function setActive(element) {
   var siblings = listings.getElementsByTagName('div');
   for (var i = 0; i < siblings.length; i++) {
     siblings[i].className = siblings[i].className
     .replace(/active/, '').replace(/\s\s*$/, '');
   }
 
-  el.className += ' active';
+  element.className += ' active';
   $('.listings').scrollTo('.active')
 }
 
@@ -78,7 +78,7 @@ var setupMarkersInfo = function(temple) {
   temple.on('click', function(e) {
     // 1. center the map on the selected marker.
     map.setView(temple.getLatLng(), zoomLevel, {
-      pan: { animate: true, duration: 1.5 }
+      pan: { animate: true, duration: 2.5 }
     // map.panTo(temple.getLatLng())
     });
 
