@@ -173,13 +173,15 @@ a:hover {
 }
 
 .leaflet-popup-content-wrapper {
+  border: 3px solid rgb(241, 176, 68);
   background-color: rgba(255,255,255,0.85);
   padding: 0;
 }
 
 .leaflet-popup-content h3 {
-  background-color: rgb(56, 76, 106);
-  color: rgb(241, 176, 68);
+  font-family: "Sorts Mill Goudy";
+  text-align: center;
+  color: rgb(231, 166, 58);
   margin: 0;
   display: block;
   padding: 10px;
@@ -194,4 +196,14 @@ a:hover {
 }
 
 .leaflet-container .leaflet-marker-icon { cursor: pointer;
+}
+
+#holy {
+  font-family: "Sorts Mill Goudy";
+  font-size: 9pt;
+  text-align: center;
+}
+
+.caps {
+ font-size: 11pt;
 }
