@@ -43,22 +43,22 @@ var setupMarkersInfo = function(temple) {
   tableData = "<span class='temple-order'>" + prop.snippet + "</span>"
   tableData += "<table>"
   if (prop.announcement) {           /// moment("2000-04-02").format("LL")
-    tableData += "<tr><td>Announcement:</td><td>" + moment(prop.announcement).format("LL") + "</td></tr>"
+    tableData += "<tr><td class='milestone'>Announcement</td><td>" + moment(prop.announcement).format("LL") + "</td></tr>"
   }
   if (prop.groundbreaking) {
-    tableData += "<tr><td>Groundbreaking:</td><td>" + moment(prop.groundbreaking).format("LL") + "&nbsp;&nbsp;by&nbsp;&nbsp;" + prop.site_dedicator + "</td></tr>"
+    tableData += "<tr><td class='milestone'>Groundbreaking</td><td>" + moment(prop.groundbreaking).format("LL") + "&nbsp;&nbsp;by&nbsp;&nbsp;" + prop.site_dedicator + "</td></tr>"
   }
   if (prop.dedication) {
-    tableData += "<tr><td>Dedication:</td><td>" + moment(prop.dedication).format("LL") + "&nbsp;&nbsp;by&nbsp;&nbsp;" + prop.dedicator + "</td></tr>"
+    tableData += "<tr><td class='milestone'>Dedication</td><td>" + moment(prop.dedication).format("LL") + "&nbsp;&nbsp;by&nbsp;&nbsp;" + prop.dedicator + "</td></tr>"
   }
   if (prop.exterior_finish) {
-    tableData += "<tr><td>Exterior Finish:</td><td>" + prop.exterior_finish + "</td></tr>"
+    tableData += "<tr><td class='milestone'>Exterior Finish</td><td>" + prop.exterior_finish + "</td></tr>"
   }
   if (prop.site) {
-    tableData += "<tr><td>Site:</td><td>" + prop.site + "</td></tr>"
+    tableData += "<tr><td class='milestone'>Site</td><td>" + prop.site + "</td></tr>"
   }
   if (prop.total_floor_area) {
-    tableData += "<tr><td>Total Floor Area:</td><td>" + prop.total_floor_area + "</td></tr>"
+    tableData += "<tr><td class='milestone'>Total Floor Area</td><td>" + prop.total_floor_area + "</td></tr>"
   }
   tableData += "</table>"
 

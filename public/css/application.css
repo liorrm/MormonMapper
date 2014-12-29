@@ -159,32 +159,8 @@ a:hover {
   color: rgb(120, 120, 110);
 }
 
-::-webkit-scrollbar {
-  width: 7px;
-  height: 9px;
-  border-left: 0;
-  background: rgba(0,0,0,0.1);
-}
-
-::-webkit-scrollbar-track {
-  background: none;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgb(241, 176, 68);
-  border-radius: 0;
-}
-
-.clearfix {
-  display: block;
-}
-
-.clearfix:after {
-  content: '.';
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
+.milestone {
+  font-weight: bold;
 }
 
 .leaflet-popup-close-button {

@@ -2,7 +2,7 @@ $.fn.scrollTo = function( target, options, callback ){
   if(typeof options == 'function' && arguments.length == 2){ callback = options; options = target; }
   var settings = $.extend({
     scrollTarget  : target,
-    offsetTop     : 88,
+    offsetTop     : 360,
     duration      : 200,
     easing        : 'swing'
   }, options);
