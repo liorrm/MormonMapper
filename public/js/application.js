@@ -145,7 +145,7 @@ var locations = L.mapbox.featureLayer().addTo(map);
     locations.eachLayer(setupMarkersInfo);
 
 
-$('#search').on('keyup', function() {
+$('#search').on('keydown', function() {
   searchTemples($(this).val());
 });
 
