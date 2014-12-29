@@ -65,12 +65,18 @@ var setupMarkersInfo = function(temple) {
   details.innerHTML = tableData
 
   listing.onclick = function() {
-    setActive(listing);
+    if (listing.className.indexOf("active") != -1) {
+      $('.active').removeClass("active");
+      temple.closePopup();
+    }
+    else {
+      setActive(listing);
 
-    // When a menu item is clicked, animate the map to center
-    // its associated temple and open its popup.
-    map.setView(temple.getLatLng(), zoomLevel, { pan: { animate: true, duration: 1.5}});
-    temple.openPopup();
+      // When a menu item is clicked, animate the map to center
+      // its associated temple and open its popup.
+      map.setView(temple.getLatLng(), zoomLevel, { pan: { animate: true, duration: 1.5}});
+      temple.openPopup();
+    }
     return false;
   };
 
