@@ -11,7 +11,7 @@ body {
 .heading {
   height: 90px;
   text-align: center;
-  background: #fff;
+  background-color: rgba(242, 240, 242, 0.98);
   border-bottom: 1px solid #eee;
   padding: 0 10px;
   padding-top: 5px;
@@ -29,14 +29,19 @@ input {
   width: 95%;
   border: 1px solid rgb(190, 190, 180);
   box-shadow: none;
-  transition: box-shadow 0.5s;
+  transition: box-hover 0.3s;
+}
+
+input:hover {
+  box-shadow: 0 0 7px rgb(241, 176, 68);
+  transition: 0.4s;
 }
 
 input:focus {
   box-shadow: 0 0 15px rgb(241, 176, 68);
   outline: none;
-  border: none;
 }
+
 
 .pad2 {
   padding: 20px;
@@ -87,26 +92,27 @@ a:hover {
 }
 
 .sidebar {
-  background-color: rgba(242, 240, 242, 0.9);
+  background-color: rgba(242, 240, 242, 0.92);
   position: absolute;
   width: 20%;
-  height: 100%;
+  height: 12%;
   top: 0;
   left: 0;
   overflow: hidden;
   border-right: 1px solid rgba(0,0,0,0.25);
   z-index: 1;
-  -webkit-transition: 0.5s
+  -webkit-transition: 0.3s
 }
 
 .sidebar:hover {
   width: 40%;
-  -webkit-transform: 0.5s;
+  height: 100%;
+  -webkit-transform: 0.3s;
 }
 
 .listings {
   top: 90px;
-  height: 100%;
+  height: 87%;
   overflow: auto;
   padding-bottom: 60px;
 }
@@ -145,6 +151,7 @@ a:hover {
   background-color: rgb(250, 250, 250);
   height: 330px;
   overflow: scroll;
+  -webkit-transition: 0.2s;
 }
 
 .temple-order {
