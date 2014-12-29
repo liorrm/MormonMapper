@@ -190,16 +190,17 @@ a:hover {
 }
 
 .leaflet-popup-content-wrapper {
-  border: 2.4px solid rgb(241, 176, 68);
-  background-color: rgba(255,255,255,0.85);
+  border: 2.4px solid rgb(250, 185, 86);
+  background-color: rgba(255,255,255,0.9);
   padding: 0;
   box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 .leaflet-popup-content h3 {
   font-family: "Sorts Mill Goudy";
+  font-size: 13pt;
   text-align: center;
-  color: rgb(231, 166, 58);
+  color: rgb(221, 156, 48);
   margin: 0;
   display: block;
   padding: 10px;
