@@ -82,6 +82,7 @@ var setupMarkersInfo = function(temple) {
 
   // Marker interaction
   temple.on('click', function(e) {
+    $('.active').removeClass("active");
     // 1. center the map on the selected marker.
     map.setView(temple.getLatLng(), zoomLevel, {
       pan: { animate: true, duration: 2.5 }
