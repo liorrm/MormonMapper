@@ -119,7 +119,8 @@ var southWest = L.latLng(-90, -420),
 var map = L.mapbox.map('map', 'liorrm.khomnofd', { zoomControl: false,
   maxBounds: bounds,
   maxZoom: 19,
-  minZoom: 2
+  minZoom: 2,
+  worldCopyJump: true
 });
 
 map.setView
