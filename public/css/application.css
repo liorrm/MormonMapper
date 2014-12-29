@@ -95,7 +95,7 @@ a:hover {
   background-color: rgba(242, 240, 242, 0.92);
   position: absolute;
   width: 20%;
-  height: 12%;
+  height: 100%;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -125,14 +125,17 @@ a:hover {
   height: 78px;
   overflow: hidden;
   cursor: pointer;
+  -webkit-transition: 0.2s;
 }
 
-.listings .item:last-child { border-bottom: none;
+.listings .item:last-child {
+  border-bottom: none;
 }
 
 .listings .item .title {
   display: block;
   color: rgb(56, 76, 106);
+  font-size: 17px;
   font-weight: 700;
   -webkit-transition: 0.1s
 }
