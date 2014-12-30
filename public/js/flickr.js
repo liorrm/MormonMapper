@@ -17,15 +17,14 @@ var loadFlickrPhotos = function(templeItem) {
     url: searchURL,
     dataType: "json",
     success: function(serverResponse){
-      $(templeItem).append('<div class="photos">')
 
       $.each(serverResponse.photos.photo, function(i, item) {
 
-        var photoURL = 'https://farm' + item.farm + '.staticflickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_z.jpg'
+        var photoURL = 'https://farm' + item.farm + '.staticflickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_b.jpg'
 
-        $(templeItem).append('<img src="' + photoURL + '"/>')
+        $(templeItem).append('<a class="photo" href="' + photoURL + '" data-lightbox="' + templeItem.firstChild.innerHTML + '" data-title=' + item.title + '>' + item.title + '</a>')
       })
-      $(templeItem).append('</div>')
+
     }
   })
 }

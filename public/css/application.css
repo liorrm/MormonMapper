@@ -28,8 +28,9 @@ h2 {
 
 input {
   padding-top: 5px;
-  padding-left: 5px;
-  margin-top: 10px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  margin-top: 6px;
   width: 95%;
   border: 1px solid rgb(190, 190, 180);
   box-shadow: none;
@@ -66,7 +67,7 @@ h4 {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 21px;
   margin: 0;
   font-weight: 400;
 }
@@ -139,10 +140,10 @@ a:hover {
 .listings .item .title {
   display: block;
   color: rgb(56, 76, 106);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
   cursor: pointer;
-  -webkit-transition: 0.1s
+  -webkit-transition: 0.2s
 }
 
 .listings .item .title small {
@@ -152,12 +153,12 @@ a:hover {
 .listings .item.active .title,
 .listings .item .title:hover {
   color: rgb(241, 176, 68);
-  -webkit-transition: 0.1s
+  -webkit-transition: 0.15s
 }
 
 .listings .item.active {
   background-color: rgb(250, 250, 250);
-  height: 330px;
+  height: 370px;
   overflow: scroll;
   -webkit-transition: 0.2s;
 }
@@ -169,6 +170,14 @@ a:hover {
 
 .milestone {
   font-weight: bold;
+}
+
+.photo {
+  display: none;
+}
+
+.gallery {
+  display: none;
 }
 
 .leaflet-popup-close-button {

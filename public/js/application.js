@@ -44,9 +44,15 @@ var setupMarkersInfo = function(temple) {
 
 
   var details = listing.appendChild(document.createElement('div'));
+
+  details.className = "temple-data"
+
   tableData = "<span class='temple-order'>" + prop.snippet + "</span>"
+
+  tableData += '<a class="gallery" data-lightbox="' + prop.name + '" href="/gallery.jpg">View Gallery</a>'
+
   tableData += "<table>"
-  if (prop.announcement) {           /// moment("2000-04-02").format("LL")
+  if (prop.announcement) {
     tableData += "<tr><td class='milestone'>Announcement</td><td>" + moment(prop.announcement).format("LL") + "</td></tr>"
   }
   if (prop.groundbreaking) {
