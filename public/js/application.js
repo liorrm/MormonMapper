@@ -68,12 +68,14 @@ var setupMarkersInfo = function(temple) {
 
   details.innerHTML = tableData
 
+
   templeName.onclick = function() {
     if (listing.className.indexOf("active") != -1) {
       $('.active').removeClass("active");
       temple.closePopup();
     }
     else {
+      loadFlickrPhotos(listing);
       setActive(listing);
 
       // When a menu item is clicked, animate the map to center
