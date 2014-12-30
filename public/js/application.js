@@ -68,7 +68,7 @@ var setupMarkersInfo = function(temple) {
 
   details.innerHTML = tableData
 
-  listing.onclick = function() {
+  templeName.onclick = function() {
     if (listing.className.indexOf("active") != -1) {
       $('.active').removeClass("active");
       temple.closePopup();
@@ -150,7 +150,7 @@ var locations = L.mapbox.featureLayer().addTo(map);
     locations.eachLayer(setupMarkersInfo);
 
 
-$('#search').on('keydown', function() {
+$('#search').on('keyup', function() {
   searchTemples($(this).val());
 });
 
