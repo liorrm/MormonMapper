@@ -46,13 +46,13 @@ var reformatToGeoJSON = function(object){
     "geometry":{
       "type":"Point",
       "coordinates":[
-        7.356719,
-        5.147644
+        0,
+        0
       ]
     },
     "properties":{
-      "name": "Aba Nigeria Temple",
-      "snippet": "121st operating temple",
+      "name": "name",
+      "snippet": "snippet",
       "link": "<link>",
       "address": "<address>",
       "announcement": "date",
