@@ -36,7 +36,6 @@ var setupMarkersInfo = function(temple) {
   templeName.className = 'title';
 
   templeName.innerHTML = prop.name;
-  // templeName.innerHTML += '<br /><small class="quiet">' + prop.address + '</small>'
 
   var templeAddress = listing.appendChild(document.createElement('small'));
   templeAddress.classname = 'quiet';
@@ -81,7 +80,9 @@ var setupMarkersInfo = function(temple) {
       temple.closePopup();
     }
     else {
-      loadFlickrPhotos(listing);
+      if (($(listing).find("a")).length < 2) {
+        loadFlickrPhotos(listing);
+      }
       setActive(listing);
 
       // When a menu item is clicked, animate the map to center
