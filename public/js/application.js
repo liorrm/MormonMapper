@@ -32,12 +32,16 @@ var setupMarkersInfo = function(temple) {
   var listing = listings.appendChild(document.createElement('div'));
   listing.className = 'item';
 
-  var link = listing.appendChild(document.createElement('a'));
-  link.href = listing.link;
-  link.className = 'title';
+  var templeName = listing.appendChild(document.createElement('h2'));
+  templeName.className = 'title';
 
-  link.innerHTML = prop.name;
-  link.innerHTML += '<br /><small class="quiet">' + prop.address + '</small>'
+  templeName.innerHTML = prop.name;
+  // templeName.innerHTML += '<br /><small class="quiet">' + prop.address + '</small>'
+
+  var templeAddress = listing.appendChild(document.createElement('small'));
+  templeAddress.classname = 'quiet';
+  templeAddress.innerHTML = prop.address + "</small>"
+
 
   var details = listing.appendChild(document.createElement('div'));
   tableData = "<span class='temple-order'>" + prop.snippet + "</span>"
