@@ -9,6 +9,9 @@ var listings = document.getElementById('listings');
 //////////////////////
 
 function setActive(element) {
+  if (($(element).find("a")).length < 2) { // if pics havent been loaded
+      loadFlickrPhotos(element);
+  }
   var siblings = listings.getElementsByTagName('div');
   for (var i = 0; i < siblings.length; i++) {
     siblings[i].className = siblings[i].className
@@ -74,15 +77,18 @@ var setupMarkersInfo = function(temple) {
   details.innerHTML = tableData
 
 
+  $(templeName).on("hover", function(){
+    temple.openPopup();
+  })
+
+
   templeName.onclick = function() {
     if (listing.className.indexOf("active") != -1) {
       $('.active').removeClass("active");
       temple.closePopup();
     }
     else {
-      if (($(listing).find("a")).length < 2) {
-        loadFlickrPhotos(listing);
-      }
+
       setActive(listing);
 
       // When a menu item is clicked, animate the map to center
