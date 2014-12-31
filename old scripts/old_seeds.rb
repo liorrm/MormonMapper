@@ -121,7 +121,7 @@ end
 
 counter = 0
 
-170.times do
-  Temple.create(name: temple_names[counter], snippet: temple_snippets[counter], address: temple_addresses[counter], link: temple_links[counter], latitude: temple_coordinates[counter][0], longitude: temple_coordinates[counter][1])
-  counter += 1
-end
+# 170.times do
+#   Temple.create(name: temple_names[counter], snippet: temple_snippets[counter], address: temple_addresses[counter], link: temple_links[counter], latitude: temple_coordinates[counter][0], longitude: temple_coordinates[counter][1])
+#   counter += 1
+# end
