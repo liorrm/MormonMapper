@@ -48,7 +48,7 @@ var setupMarkersInfo = function(temple) {
 
   tableData = "<span class='temple-order'>" + prop.snippet + "</span>"
 
-  tableData += '<a class="gallery" data-lightbox="' + prop.name + '" href="/gallery.jpg">View Gallery</a>'
+  tableData += '<a class="gallery" data-lightbox="' + prop.name + '" href="/disclaimer.png">View Gallery</a>'
 
   tableData += "<table>"
   if (prop.announcement) {
@@ -162,4 +162,3 @@ var locations = L.mapbox.featureLayer().addTo(map);
 $('#search').on('keyup', function() {
   searchTemples($(this).val());
 });
-
