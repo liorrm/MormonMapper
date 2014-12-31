@@ -19,7 +19,6 @@ function setActive(element) {
   }
 
   element.className += ' active';
-  $('.listings').scrollTo('.active')
 }
 
 var setupMarkersInfo = function(temple) {
@@ -76,12 +75,6 @@ var setupMarkersInfo = function(temple) {
 
   details.innerHTML = tableData
 
-
-  $(templeName).on("hover", function(){
-    temple.openPopup();
-  })
-
-
   templeName.onclick = function() {
     if (listing.className.indexOf("active") != -1) {
       $('.active').removeClass("active");
@@ -109,6 +102,7 @@ var setupMarkersInfo = function(temple) {
 
     // 2. Set active the markers associated listing.
     setActive(listing);
+    $('.listings').scrollTo('.active')
   });
 
   popup += '</div>';
