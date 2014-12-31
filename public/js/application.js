@@ -105,7 +105,6 @@ var setupMarkersInfo = function(temple) {
     // 1. center the map on the selected marker.
     map.setView(temple.getLatLng(), zoomLevel, {
       pan: { animate: true, duration: 2.5 }
-    // map.panTo(temple.getLatLng())
     });
 
     // 2. Set active the markers associated listing.
@@ -163,7 +162,6 @@ var locations = L.mapbox.featureLayer().addTo(map);
 
     locations.setGeoJSON(geojson);
     locations.eachLayer(setupMarkersInfo);
-
 
 $('#search').on('keyup', function() {
   searchTemples($(this).val());
