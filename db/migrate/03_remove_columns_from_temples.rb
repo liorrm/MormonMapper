@@ -5,7 +5,3 @@ class RemoveColumnsFromTemples < ActiveRecord::Migration
     remove_column :temples, :ordinance_rooms
   end
 end
-
-# change column works exactly like add_column, just add integer as the type
-
-# also remove column open houses and ordinance rooms
