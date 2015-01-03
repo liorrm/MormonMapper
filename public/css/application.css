@@ -26,7 +26,7 @@ h2 {
   margin: 0;
 }
 
-input {
+#search {
   padding-top: 5px;
   padding-left: 2.5px;
   padding-right: 2.5px;
@@ -37,15 +37,22 @@ input {
   transition: 0.5s;
 }
 
-input:hover {
+#search:hover {
   box-shadow: 0 0 7px rgb(241, 176, 68);
   transition: 0.5s;
 }
 
-input:focus {
+#search:focus {
   box-shadow: 0 0 15px rgb(241, 176, 68);
   outline: none;
   transition: 0.2s;
+}
+
+.range {
+  position: relative;
+  top: 3%;
+  left: 5%;
+  z-index: 5;
 }
 
 
