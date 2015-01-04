@@ -144,12 +144,12 @@ var map = L.mapbox.map('map', 'liorrm.khomnofd', { zoomControl: false,
 
 map.setView
 
-var zoomLevel = map.zoom
+var zoomLevel = map.zoom // sets zoom level to whatever current zoom is
 
 // zoom the map to that bounding box
 map.fitBounds(bounds);
 
-new L.Control.Zoom({ position: 'topright' }).addTo(map);
+new L.Control.Zoom({ position: 'topright' }).addTo(map); // adds zoom control to right side of map
 
 
 var locations = L.mapbox.featureLayer().addTo(map);
@@ -160,3 +160,6 @@ var locations = L.mapbox.featureLayer().addTo(map);
 $('#search').on('keyup', function() {
   searchTemples($(this).val());
 });
+
+
+// features to add: change active state from scroll down in same window to create new adjacent window, with more information, and photo previews; add filter and sort by options: filter by temple size, dedication date, etc; add HTML range bar to drag and see temples through time.
