@@ -12,9 +12,24 @@ require 'shoulda-matchers'
 require 'rack/test'
 require 'capybara'
 require 'capybara/rspec'
+require 'capybara/dsl'
+# require 'capybara/poltergeist'
+
 
 RSpec.configure do |config|
   config.include Rack::Test::Methods
+end
+
+
+
+Capybara.app = Sinatra::Application
+
+Capybara.default_driver = :selenium
+
+
+Capybara.configure do |config|
+  config.run_server = false
+  config.app_host   = 'http://www.mormonmapper.com'
 end
 
 def app
