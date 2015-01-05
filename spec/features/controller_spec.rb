@@ -14,3 +14,19 @@ describe "index controller" do
     end
   end
 end
+
+feature 'LDS enthusiast visits the page' do
+
+  scenario 'all temples are listed in sidebar' do
+    visit '/'
+    expect(page).to have_content('Aba Nigeria Temple')
+    expect(page).to have_content('Winter Quarters Nebraska Temple')
+    expect(page).to have_css('div.item', count: 170)
+  end
+
+  scenario 'map is loaded from mapbox' do
+    visit '/'
+    expect(page).to have_css('img.leaflet-tile')
+  end
+
+end
