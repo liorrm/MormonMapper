@@ -5,7 +5,7 @@ var searchTemples = function(inputVal) {
   var safeOffset = 50 // MAGIC NUMBER BUGBUG //
 
   for (var i = 0; i<allTemples.length; i++) { // if the input text does not match the div text
-    if (allTemples[i].innerText.toLowerCase().indexOf(inputVal.toLowerCase()) == -1) {
+    if ($(allTemples[i]).text().toLowerCase().indexOf(inputVal.toLowerCase()) == -1) {
       $(allTemples[i]).hide(); // hide the div
 
       for (var v=0; v < allTemples.length + safeOffset; v++) { // then iterate through the markers
@@ -23,7 +23,7 @@ var searchTemples = function(inputVal) {
 
         if (hiddenMarkers[x]["_popup"]["_content"].indexOf(allTemples[i].firstChild.innerHTML) != -1) { // if the marker text matches the div text
             locations.addLayer(hiddenMarkers[x]) // show the marker
-            spliced = hiddenMarkers.splice(x, 1) // mark that marker as shown
+            hiddenMarkers.splice(x, 1) // mark that marker as shown
         }
       }
     }
