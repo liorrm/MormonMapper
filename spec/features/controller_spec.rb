@@ -3,10 +3,6 @@ require_relative '../spec_helper'
 
 describe "index controller" do
 
-  before :each do
-    @temples = Temple.all
-  end
-
   describe "GET /" do
     it "exists and responds with an OK status" do
       get '/'
@@ -15,6 +11,7 @@ describe "index controller" do
   end
 end
 
+
 feature 'LDS enthusiast visits the page' do
 
   before do
@@ -22,22 +19,18 @@ feature 'LDS enthusiast visits the page' do
   end
 
   scenario 'first temple is listed in sidebar' do
-    # visit '/'
     expect(page).to have_content('Aba Nigeria Temple')
   end
 
   scenario 'last temple is listed in sidebar' do
-    # visit '/'
     expect(page).to have_content('Winter Quarters Nebraska Temple')
   end
 
   scenario 'all temples are listed in sidebar' do
-    # visit '/'
     expect(page).to have_css('div.item', count: 170)
   end
 
   scenario 'map is loaded from mapbox' do
-    # visit '/'
     expect(page).to have_css('img.leaflet-tile')
   end
 end
@@ -73,9 +66,14 @@ feature 'LDS enthusiast searches for a temple' do
     visit '/'
   end
 
-  scenario 'displays only relevant results' do
+  scenario 'displays multiple results when >1 match' do
+    fill_in('search', :with => 'Brazil Temple')
+    expect(page).to have_css('.item', count: 8)
+  end
+
+  scenario 'displays one result when one match' do
     fill_in('search', :with => 'Madrid')
-    expect(page).to have_css('item.hidden', count: 169)
+    expect(page).to have_css('.item', count: 1)
   end
 
 end
