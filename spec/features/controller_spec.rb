@@ -17,10 +17,18 @@ end
 
 feature 'LDS enthusiast visits the page' do
 
-  scenario 'all temples are listed in sidebar' do
+  scenario 'first temple is listed in sidebar' do
     visit '/'
     expect(page).to have_content('Aba Nigeria Temple')
+  end
+
+  scenario 'last temple is listed in sidebar' do
+    visit '/'
     expect(page).to have_content('Winter Quarters Nebraska Temple')
+  end
+
+  scenario 'all temples are listed in sidebar' do
+    visit '/'
     expect(page).to have_css('div.item', count: 170)
   end
 
