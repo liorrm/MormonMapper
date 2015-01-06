@@ -36,5 +36,31 @@ feature 'LDS enthusiast visits the page' do
     visit '/'
     expect(page).to have_css('img.leaflet-tile')
   end
+end
+
+feature 'LDS enthusiast clicks on a sidebar item' do
+
+  scenario 'div height expands to show View Gallery link' do
+    visit '/'
+    first('.title').click
+    expect(page).to have_content('View Gallery')
+  end
+
+  scenario 'div height expands to show announcement info' do
+    visit '/'
+    first('.title').click
+    expect(page).to have_content('Announcement')
+  end
+
+  scenario 'Flickr photos are loaded on div click' do
+    visit '/'
+    first('.title').click
+    sleep(1.5)
+    html = page.evaluate_script("document.getElementsByClassName('active')[0].innerHTML")
+    html.should include('<a class="photo"')
+  end
+
+
 
 end
+
