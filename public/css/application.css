@@ -261,3 +261,7 @@ td {
   padding: 5px;
   margin: 5px;
 }
+
+.hidden {
+  display: none !important;
+}

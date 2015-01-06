@@ -6,7 +6,7 @@ var searchTemples = function(inputVal) {
 
   for (var i = 0; i<allTemples.length; i++) { // if the input text does not match the div text
     if ($(allTemples[i]).text().toLowerCase().indexOf(inputVal.toLowerCase()) == -1) {
-      $(allTemples[i]).hide(); // hide the div
+      $(allTemples[i]).addClass("hidden"); // hide the div
 
       for (var v=0; v < allTemples.length + safeOffset; v++) { // then iterate through the markers
       // then iterate through the markers
@@ -18,7 +18,7 @@ var searchTemples = function(inputVal) {
       }
     }
     else { // else if the input text DOES match the div text
-      $(allTemples[i]).show(); // show the div
+      $(allTemples[i]).removeClass("hidden"); // show the div
       for (var x=0; x<hiddenMarkers.length; x++) { // then iterate through the hidden markers
 
         if (hiddenMarkers[x]["_popup"]["_content"].indexOf(allTemples[i].firstChild.innerHTML) != -1) { // if the marker text matches the div text
