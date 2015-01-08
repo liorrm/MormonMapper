@@ -8,9 +8,7 @@ var loadFlickrPhotos = function(templeItem) {
 
   var searchTerm = templeName.join("") + "LDS"
 
-  var apiKey = <% ENV['FLICKR_KEY'] %>
-
-  console.log(apiKey)
+  var apiKey = "ae27bc9d3af17e89122b67b7aa6a86cb"
 
   var searchURL = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=' + apiKey + '&text=' + searchTerm + '&format=json&nojsoncallback=1'
 
