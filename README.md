@@ -4,32 +4,33 @@ MormonMapper
 the most thoughtful and interactive map of Mormon/LDS temples on the web
 
 
-###Languages###
+####Languages###
 
-####Ruby & JavaScript####
+- Ruby & JavaScript
 
 
-###Frameworks and Libraries###
+####Frameworks and Libraries####
 
-####Ruby####
+Ruby
 - Sinatra (Rack web server)
 - Nokogiri (HTML & XML parsing)
 
-####JavaScript####
+JavaScript
 - jQuery (goes without saying, I know...)
 - Leaflet.js
+- Mapbox.js
 - Moment.js
 - Lightbox.js
 
 
-###APIs###
+####APIs####
 - Flickr
 - Mapbox
 
-###Resources###
-ldschurchtemples.org
-lds.org
+####Resources####
+- ldschurchtemples.org
+- lds.org
 
-###Acknowledgements###
+####Acknowledgements####
 
-A very special thanks to Rick Satterfield of ldschurchtemples.org for his support and for creating an incredible website that provided all the temple information I used in this project!
+A very special thanks to Rick Satterfield of ldschurchtemples.org for his support and for creating and maintaining an incredible website that provided all the temple information I used in this project!
