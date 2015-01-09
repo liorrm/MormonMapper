@@ -5,17 +5,16 @@ the most thoughtful and interactive map of Mormon/LDS temples on the web
 
 
 ####Languages###
-
 - Ruby & JavaScript
 
 
-####Frameworks and Libraries####
+####Frameworks & Libraries####
 
-Ruby
+#####Ruby#####
 - Sinatra (Rack web server)
 - Nokogiri (HTML & XML parsing)
 
-JavaScript
+#####JavaScript#####
 - jQuery (goes without saying, I know...)
 - Leaflet.js
 - Mapbox.js
